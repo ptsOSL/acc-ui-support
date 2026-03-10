@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>$(ioc) Releases</name>
+	<x>308</x>
+	<y>152</y>
+	<width>470</width>
+	<height>350</height>
+	<background_color>
+		<color name="Title" red="158" green="158" blue="158"></color>
+	</background_color>
+	<grid_step_x>5</grid_step_x>
+	<grid_step_y>5</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>10</x>
+		<y>50</y>
+		<width>451</width>
+		<height>296</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<width>521</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</line_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS Software Module Releases - Page $(p)
+$(ioc)</text>
+		<x>5</x>
+		<width>293</width>
+		<height>32</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Exit Button</name>
+		<actions>
+			<action type="close_display">
+				<description>Close display</description>
+			</action>
+		</actions>
+		<text>Exit</text>
+		<x>410</x>
+		<y>10</y>
+		<width>51</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)1</pv_name>
+		<x>239</x>
+		<y>79</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)2</pv_name>
+		<x>239</x>
+		<y>104</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)3</pv_name>
+		<x>239</x>
+		<y>129</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)4</pv_name>
+		<x>239</x>
+		<y>154</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)5</pv_name>
+		<x>239</x>
+		<y>179</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)6</pv_name>
+		<x>239</x>
+		<y>204</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)7</pv_name>
+		<x>239</x>
+		<y>229</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)8</pv_name>
+		<x>239</x>
+		<y>254</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)9</pv_name>
+		<x>239</x>
+		<y>279</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)0</pv_name>
+		<x>239</x>
+		<y>54</y>
+		<width>212</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)0.DESC</pv_name>
+		<x>20</x>
+		<y>55</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)1.DESC</pv_name>
+		<x>20</x>
+		<y>80</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>ioc_stats_release.bob</file>
+				<macros>
+					<ioc>$(ioc)</ioc>
+					<idx>1</idx>
+					<p>2</p>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>Release Versions (Page 2),,,</text>
+		<x>240</x>
+		<y>315</y>
+		<width>211</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>ioc_stats_release.bob</file>
+				<macros>
+					<ioc>$(ioc)</ioc>
+					<idx>0</idx>
+					<p>1</p>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>Release Versions (Page 1),,,</text>
+		<x>20</x>
+		<y>315</y>
+		<width>211</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)2.DESC</pv_name>
+		<x>20</x>
+		<y>105</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)3.DESC</pv_name>
+		<x>20</x>
+		<y>130</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)4.DESC</pv_name>
+		<x>20</x>
+		<y>155</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)5.DESC</pv_name>
+		<x>20</x>
+		<y>180</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)6.DESC</pv_name>
+		<x>20</x>
+		<y>205</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)7.DESC</pv_name>
+		<x>20</x>
+		<y>230</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)8.DESC</pv_name>
+		<x>20</x>
+		<y>255</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):RELEASE$(idx)9.DESC</pv_name>
+		<x>20</x>
+		<y>280</y>
+		<width>211</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+</display>

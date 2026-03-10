@@ -420,9 +420,14 @@ $(pv_value)</tooltip>
 	<widget type="action_button" version="3.0.0">
 		<name>EDM shell command</name>
 		<actions>
-			<action type="open_file">
-				<description>Open File</description>
-				<file>$(PLOT_LOC)$(device).plt</file>
+			<action type="execute">
+				<description>Execute Script</description>
+				<script file="EmbeddedPy">
+					<text>from org.csstudio.opibuilder.scriptUtil import ScriptUtil
+
+command_id="org.csstudio.trends.databrowser2.newWindow"
+ScriptUtil.executeEclipseCommand(command_id, ['pvnames', '$(device):PLOG'])</text>
+				</script>
 			</action>
 		</actions>
 		<text>Graph</text>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>$(ioc)</name>
+	<x>777</x>
+	<y>124</y>
+	<width>541</width>
+	<height>749</height>
+	<background_color>
+		<color name="grey-7" red="145" green="145" blue="145"></color>
+	</background_color>
+	<actions></actions>
+	<grid_step_x>5</grid_step_x>
+	<grid_step_y>5</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<macros>
+			<pv_name></pv_name>
+		</macros>
+		<x>10</x>
+		<y>690</y>
+		<width>521</width>
+		<height>56</height>
+		<line_width>0</line_width>
+		<line_color>
+			<color red="0" green="128" blue="255"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<actions></actions>
+		<tooltip>$(pv_name)
+$(pv_value)</tooltip>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>- 1 ) ) x</text>
+		<x>352</x>
+		<y>536528</y>
+		<width>46</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<wrap_words>false</wrap_words>
+		<actions></actions>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Diamond Release</text>
+		<x>15</x>
+		<y>695</y>
+		<width>99</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<wrap_words>false</wrap_words>
+		<actions></actions>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):DLSVER</pv_name>
+		<x>14</x>
+		<y>714</y>
+		<width>232</width>
+		<height>27</height>
+		<font>
+			<font family="Liberation Sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>1</precision>
+		<show_units>false</show_units>
+		<vertical_alignment>1</vertical_alignment>
+		<wrap_words>false</wrap_words>
+		<actions></actions>
+		<border_color>
+			<color name="Mid Green" red="0" green="196" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="embedded" version="2.0.0">
+		<name>EDM linkingContainer</name>
+		<file>ioc_stats_soft.bob</file>
+		<width>540</width>
+		<height>690</height>
+		<resize>4</resize>
+		<transparent>true</transparent>
+		<actions></actions>
+		<border_color>
+			<color red="0" green="128" blue="255"></color>
+		</border_color>
+	</widget>
+</display>

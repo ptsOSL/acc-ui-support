@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>EVR Front Panel $(fps) Selector</name>
+	<x>794</x>
+	<y>502</y>
+	<width>489</width>
+	<height>521</height>
+	<background_color>
+		<color name="Canvas" red="200" green="200" blue="200"></color>
+	</background_color>
+	<grid_step_x>8</grid_step_x>
+	<grid_step_y>8</grid_step_y>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>0</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Extended Pulse 0</text>
+		<x>16</x>
+		<y>16</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>1</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Extended Pulse 1</text>
+		<x>16</x>
+		<y>48</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>2</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Extended Pulse 2</text>
+		<x>16</x>
+		<y>80</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>3</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Extended Pulse 3</text>
+		<x>16</x>
+		<y>112</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>4</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 0</text>
+		<x>16</x>
+		<y>160</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>5</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 1</text>
+		<x>16</x>
+		<y>192</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>6</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 2</text>
+		<x>16</x>
+		<y>224</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>7</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 3</text>
+		<x>16</x>
+		<y>256</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>8</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 4</text>
+		<x>16</x>
+		<y>288</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>9</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 5</text>
+		<x>16</x>
+		<y>320</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>10</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Trigger Event 6</text>
+		<x>16</x>
+		<y>352</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>11</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 0</text>
+		<x>176</x>
+		<y>16</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>12</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 1</text>
+		<x>176</x>
+		<y>48</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>13</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 2</text>
+		<x>176</x>
+		<y>80</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>14</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 3</text>
+		<x>176</x>
+		<y>112</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>15</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 4</text>
+		<x>176</x>
+		<y>144</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>16</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 5</text>
+		<x>176</x>
+		<y>176</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>17</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 6</text>
+		<x>176</x>
+		<y>208</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>18</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 7</text>
+		<x>176</x>
+		<y>240</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>19</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 8</text>
+		<x>176</x>
+		<y>272</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>20</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output 9</text>
+		<x>176</x>
+		<y>304</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>21</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output A</text>
+		<x>176</x>
+		<y>336</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>22</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output B</text>
+		<x>176</x>
+		<y>368</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>23</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output C</text>
+		<x>176</x>
+		<y>400</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>24</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Pulse Output D</text>
+		<x>176</x>
+		<y>432</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>25</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 0</text>
+		<x>336</x>
+		<y>288</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>26</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 1</text>
+		<x>336</x>
+		<y>320</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>27</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 2</text>
+		<x>336</x>
+		<y>352</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>28</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 3</text>
+		<x>336</x>
+		<y>384</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>29</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 4</text>
+		<x>336</x>
+		<y>416</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>30</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 5</text>
+		<x>336</x>
+		<y>448</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>31</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Level Output 6</text>
+		<x>336</x>
+		<y>480</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>32</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 0</text>
+		<x>336</x>
+		<y>16</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>33</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 1</text>
+		<x>336</x>
+		<y>48</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>34</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 2</text>
+		<x>336</x>
+		<y>80</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>35</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 3</text>
+		<x>336</x>
+		<y>112</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>36</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 4</text>
+		<x>336</x>
+		<y>144</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>37</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 5</text>
+		<x>336</x>
+		<y>176</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>38</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 6</text>
+		<x>336</x>
+		<y>208</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>39</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Distributed Bus 7</text>
+		<x>336</x>
+		<y>240</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>40</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Prescaler 0</text>
+		<x>16</x>
+		<y>400</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>41</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Prescaler 1</text>
+		<x>16</x>
+		<y>432</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Message Button</name>
+		<actions execute_as_one="true">
+			<action type="write_pv">
+				<description>Write PV</description>
+				<pv_name>$(pv_name)</pv_name>
+				<value>42</value>
+			</action>
+		</actions>
+		<pv_name>$(evr).FPS$(fps)</pv_name>
+		<text>Prescaler 2</text>
+		<x>16</x>
+		<y>464</y>
+		<width>137</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<rules>
+			<rule name="OnOffBackgroundRule" prop_id="background_color" out_exp="false">
+				<exp bool_exp="widget.getValue() == 1">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>
+						<color name="Grey 75%" red="192" green="192" blue="192"></color>
+					</value>
+				</exp>
+				<pv_name>$(evr).FPS$(fps)</pv_name>
+			</rule>
+		</rules>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>8</y>
+		<width>153</width>
+		<height>137</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>168</x>
+		<y>8</y>
+		<width>153</width>
+		<height>457</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>328</x>
+		<y>8</y>
+		<width>153</width>
+		<height>265</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>392</y>
+		<width>153</width>
+		<height>105</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>152</y>
+		<width>153</width>
+		<height>233</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>328</x>
+		<y>280</y>
+		<width>153</width>
+		<height>233</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+</display>

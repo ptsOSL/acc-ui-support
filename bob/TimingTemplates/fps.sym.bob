@@ -1,0 +1,2217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<x>1161</x>
+	<y>77</y>
+	<width>446</width>
+	<height>740</height>
+	<background_color>
+		<color name="Disconn/Invalid" red="255" green="255" blue="255"></color>
+	</background_color>
+	<grid_step_x>8</grid_step_x>
+	<grid_step_y>8</grid_step_y>
+	<widget type="group" version="3.0.0">
+		<name>0</name>
+		<x>8</x>
+		<y>8</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Unknown option</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>1</name>
+		<x>192</x>
+		<y>8</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Unknown option</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>2</name>
+		<x>8</x>
+		<y>40</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Extended Pulse 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>3</name>
+		<x>192</x>
+		<y>40</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Extended Pulse 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>4</name>
+		<x>8</x>
+		<y>72</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Extended Pulse 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>5</name>
+		<x>192</x>
+		<y>72</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Extended Pulse 3</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>6</name>
+		<x>8</x>
+		<y>104</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>7</name>
+		<x>192</x>
+		<y>104</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>8</name>
+		<x>8</x>
+		<y>136</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>9</name>
+		<x>192</x>
+		<y>136</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 3</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>10</name>
+		<x>8</x>
+		<y>168</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 4</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>11</name>
+		<x>192</x>
+		<y>168</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 5</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>12</name>
+		<x>8</x>
+		<y>200</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Trigger Event 6</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>13</name>
+		<x>192</x>
+		<y>200</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>14</name>
+		<x>8</x>
+		<y>232</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>15</name>
+		<x>192</x>
+		<y>232</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>16</name>
+		<x>8</x>
+		<y>264</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 3</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>17</name>
+		<x>192</x>
+		<y>264</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 4</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>18</name>
+		<x>8</x>
+		<y>296</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 5</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>19</name>
+		<x>192</x>
+		<y>296</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 6</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>20</name>
+		<x>8</x>
+		<y>328</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 7</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>21</name>
+		<x>192</x>
+		<y>328</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 8</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>22</name>
+		<x>8</x>
+		<y>360</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 9</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>23</name>
+		<x>192</x>
+		<y>360</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 10</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>24</name>
+		<x>8</x>
+		<y>392</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 11</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>25</name>
+		<x>192</x>
+		<y>392</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 12</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>26</name>
+		<x>8</x>
+		<y>424</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Pulse 13</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>27</name>
+		<x>192</x>
+		<y>424</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>28</name>
+		<x>8</x>
+		<y>456</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>29</name>
+		<x>192</x>
+		<y>456</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>30</name>
+		<x>8</x>
+		<y>488</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 3</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>31</name>
+		<x>192</x>
+		<y>488</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 4</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>32</name>
+		<x>8</x>
+		<y>520</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 5</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>33</name>
+		<x>192</x>
+		<y>520</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Level 6</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>34</name>
+		<x>8</x>
+		<y>552</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>35</name>
+		<x>192</x>
+		<y>552</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>36</name>
+		<x>8</x>
+		<y>584</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>37</name>
+		<x>192</x>
+		<y>584</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 3</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>38</name>
+		<x>8</x>
+		<y>616</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 4</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>39</name>
+		<x>192</x>
+		<y>616</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 5</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>40</name>
+		<x>8</x>
+		<y>648</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 6</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>41</name>
+		<x>192</x>
+		<y>648</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>DBUS 7</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>42</name>
+		<x>8</x>
+		<y>680</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Prescaler 0</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>43</name>
+		<x>192</x>
+		<y>680</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Prescaler 1</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>44</name>
+		<x>8</x>
+		<y>712</y>
+		<width>177</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<widget type="rectangle" version="2.0.0">
+			<name>EDM Rectangle</name>
+			<width>177</width>
+			<height>25</height>
+			<visible>false</visible>
+			<line_width>1</line_width>
+			<line_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</line_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Prescaler 2</text>
+			<width>176</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Canvas" red="200" green="200" blue="200"></color>
+			</background_color>
+			<transparent>false</transparent>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+	</widget>
+</display>

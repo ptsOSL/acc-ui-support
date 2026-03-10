@@ -1,0 +1,6260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>EVR $(evr)</name>
+	<x>572</x>
+	<y>332</y>
+	<width>1169</width>
+	<height>681</height>
+	<background_color>
+		<color name="Canvas" red="200" green="200" blue="200"></color>
+	</background_color>
+	<grid_step_x>8</grid_step_x>
+	<grid_step_y>8</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>832</x>
+		<y>584</y>
+		<width>329</width>
+		<height>89</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>520</y>
+		<width>697</width>
+		<height>153</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>712</x>
+		<y>520</y>
+		<width>225</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>616</x>
+		<y>280</y>
+		<width>321</width>
+		<height>233</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>40</y>
+		<width>601</width>
+		<height>473</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>784</x>
+		<y>40</y>
+		<width>153</width>
+		<height>233</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>616</x>
+		<y>40</y>
+		<width>161</width>
+		<height>233</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>1008</x>
+		<y>520</y>
+		<width>153</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>944</x>
+		<y>312</y>
+		<width>217</width>
+		<height>121</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>944</x>
+		<y>40</y>
+		<width>217</width>
+		<height>265</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Enable</text>
+		<x>8</x>
+		<y>8</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).ENAB</pv_name>
+		<x>64</x>
+		<y>8</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 0</text>
+		<x>624</x>
+		<y>48</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 1</text>
+		<x>624</x>
+		<y>80</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 2</text>
+		<x>624</x>
+		<y>112</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 3</text>
+		<x>624</x>
+		<y>144</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 4</text>
+		<x>624</x>
+		<y>176</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 5</text>
+		<x>624</x>
+		<y>208</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Trigger 6</text>
+		<x>624</x>
+		<y>240</y>
+		<width>56</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG0</pv_name>
+		<x>688</x>
+		<y>48</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG1</pv_name>
+		<x>688</x>
+		<y>80</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG2</pv_name>
+		<x>688</x>
+		<y>112</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG3</pv_name>
+		<x>688</x>
+		<y>144</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG4</pv_name>
+		<x>688</x>
+		<y>176</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG5</pv_name>
+		<x>688</x>
+		<y>208</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).TRG6</pv_name>
+		<x>688</x>
+		<y>240</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 0</text>
+		<x>792</x>
+		<y>48</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL0</pv_name>
+		<x>848</x>
+		<y>48</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 1</text>
+		<x>792</x>
+		<y>80</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL1</pv_name>
+		<x>848</x>
+		<y>80</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 2</text>
+		<x>792</x>
+		<y>112</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL2</pv_name>
+		<x>848</x>
+		<y>112</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 3</text>
+		<x>792</x>
+		<y>144</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL3</pv_name>
+		<x>848</x>
+		<y>144</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 4</text>
+		<x>792</x>
+		<y>176</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL4</pv_name>
+		<x>848</x>
+		<y>176</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 5</text>
+		<x>792</x>
+		<y>208</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL5</pv_name>
+		<x>848</x>
+		<y>208</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Level 6</text>
+		<x>792</x>
+		<y>240</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTL6</pv_name>
+		<x>848</x>
+		<y>240</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 0</text>
+		<x>16</x>
+		<y>64</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP0</pv_name>
+		<x>72</x>
+		<y>64</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP1</pv_name>
+		<x>72</x>
+		<y>96</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP2</pv_name>
+		<x>72</x>
+		<y>128</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP3</pv_name>
+		<x>72</x>
+		<y>160</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP4</pv_name>
+		<x>72</x>
+		<y>192</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP5</pv_name>
+		<x>72</x>
+		<y>224</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP6</pv_name>
+		<x>72</x>
+		<y>256</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP7</pv_name>
+		<x>72</x>
+		<y>288</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP8</pv_name>
+		<x>72</x>
+		<y>320</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTP9</pv_name>
+		<x>72</x>
+		<y>352</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTPA</pv_name>
+		<x>72</x>
+		<y>384</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTPB</pv_name>
+		<x>72</x>
+		<y>416</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTPC</pv_name>
+		<x>72</x>
+		<y>448</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTPD</pv_name>
+		<x>72</x>
+		<y>480</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 1</text>
+		<x>16</x>
+		<y>96</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 2</text>
+		<x>16</x>
+		<y>128</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 3</text>
+		<x>16</x>
+		<y>160</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 4</text>
+		<x>16</x>
+		<y>192</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 5</text>
+		<x>16</x>
+		<y>224</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 6</text>
+		<x>16</x>
+		<y>256</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 7</text>
+		<x>16</x>
+		<y>288</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 8</text>
+		<x>16</x>
+		<y>320</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse 9</text>
+		<x>16</x>
+		<y>352</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse A</text>
+		<x>16</x>
+		<y>384</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse B</text>
+		<x>16</x>
+		<y>416</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse C</text>
+		<x>16</x>
+		<y>448</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pulse D</text>
+		<x>16</x>
+		<y>480</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT0W</pv_name>
+		<x>168</x>
+		<y>64</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT1W</pv_name>
+		<x>168</x>
+		<y>96</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT2W</pv_name>
+		<x>168</x>
+		<y>128</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT3W</pv_name>
+		<x>168</x>
+		<y>160</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT4W</pv_name>
+		<x>168</x>
+		<y>192</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT5W</pv_name>
+		<x>168</x>
+		<y>224</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT6W</pv_name>
+		<x>168</x>
+		<y>256</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT7W</pv_name>
+		<x>168</x>
+		<y>288</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT8W</pv_name>
+		<x>168</x>
+		<y>320</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT9W</pv_name>
+		<x>168</x>
+		<y>352</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTAW</pv_name>
+		<x>168</x>
+		<y>384</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTBW</pv_name>
+		<x>168</x>
+		<y>416</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTCW</pv_name>
+		<x>168</x>
+		<y>448</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTDW</pv_name>
+		<x>168</x>
+		<y>480</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT0D</pv_name>
+		<x>344</x>
+		<y>64</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT1D</pv_name>
+		<x>344</x>
+		<y>96</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT2D</pv_name>
+		<x>344</x>
+		<y>128</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT3D</pv_name>
+		<x>344</x>
+		<y>160</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT4D</pv_name>
+		<x>344</x>
+		<y>192</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT5D</pv_name>
+		<x>344</x>
+		<y>224</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT6D</pv_name>
+		<x>344</x>
+		<y>256</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT7D</pv_name>
+		<x>344</x>
+		<y>288</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT8D</pv_name>
+		<x>344</x>
+		<y>320</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OT9D</pv_name>
+		<x>344</x>
+		<y>352</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTAD</pv_name>
+		<x>344</x>
+		<y>384</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTBD</pv_name>
+		<x>344</x>
+		<y>416</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTCD</pv_name>
+		<x>344</x>
+		<y>448</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).OTDD</pv_name>
+		<x>344</x>
+		<y>480</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Ext Pulse 0</text>
+		<x>16</x>
+		<y>544</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG0E</pv_name>
+		<x>88</x>
+		<y>544</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG1E</pv_name>
+		<x>88</x>
+		<y>576</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG2E</pv_name>
+		<x>88</x>
+		<y>608</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG3E</pv_name>
+		<x>88</x>
+		<y>640</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Ext Pulse 1</text>
+		<x>16</x>
+		<y>576</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Ext Pulse 2</text>
+		<x>16</x>
+		<y>608</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Ext Pulse 3</text>
+		<x>16</x>
+		<y>640</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG0W</pv_name>
+		<x>184</x>
+		<y>544</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG1W</pv_name>
+		<x>184</x>
+		<y>576</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG2W</pv_name>
+		<x>184</x>
+		<y>608</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG3W</pv_name>
+		<x>184</x>
+		<y>640</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG0D</pv_name>
+		<x>360</x>
+		<y>544</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG1D</pv_name>
+		<x>360</x>
+		<y>576</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG2D</pv_name>
+		<x>360</x>
+		<y>608</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG3D</pv_name>
+		<x>360</x>
+		<y>640</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG0C</pv_name>
+		<x>536</x>
+		<y>544</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG1C</pv_name>
+		<x>536</x>
+		<y>576</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG2C</pv_name>
+		<x>536</x>
+		<y>608</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DG3C</pv_name>
+		<x>536</x>
+		<y>640</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG0P</pv_name>
+		<x>616</x>
+		<y>544</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG1P</pv_name>
+		<x>616</x>
+		<y>576</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG2P</pv_name>
+		<x>616</x>
+		<y>608</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DG3P</pv_name>
+		<x>616</x>
+		<y>640</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT0P</pv_name>
+		<x>520</x>
+		<y>64</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT1P</pv_name>
+		<x>520</x>
+		<y>96</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT2P</pv_name>
+		<x>520</x>
+		<y>128</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT3P</pv_name>
+		<x>520</x>
+		<y>160</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT4P</pv_name>
+		<x>520</x>
+		<y>192</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT5P</pv_name>
+		<x>520</x>
+		<y>224</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT6P</pv_name>
+		<x>520</x>
+		<y>256</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT7P</pv_name>
+		<x>520</x>
+		<y>288</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT8P</pv_name>
+		<x>520</x>
+		<y>320</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT9P</pv_name>
+		<x>520</x>
+		<y>352</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTAP</pv_name>
+		<x>520</x>
+		<y>384</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTBP</pv_name>
+		<x>520</x>
+		<y>416</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTCP</pv_name>
+		<x>520</x>
+		<y>448</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OTDP</pv_name>
+		<x>520</x>
+		<y>480</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 0</text>
+		<x>952</x>
+		<y>48</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT0B</pv_name>
+		<x>1008</x>
+		<y>48</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 1</text>
+		<x>952</x>
+		<y>80</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT1B</pv_name>
+		<x>1008</x>
+		<y>80</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 2</text>
+		<x>952</x>
+		<y>112</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT2B</pv_name>
+		<x>1008</x>
+		<y>112</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 3</text>
+		<x>952</x>
+		<y>144</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT3B</pv_name>
+		<x>1008</x>
+		<y>144</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 4</text>
+		<x>952</x>
+		<y>176</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT4B</pv_name>
+		<x>1008</x>
+		<y>176</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 5</text>
+		<x>952</x>
+		<y>208</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT5B</pv_name>
+		<x>1008</x>
+		<y>208</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 6</text>
+		<x>952</x>
+		<y>240</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT6B</pv_name>
+		<x>1008</x>
+		<y>240</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>DBus 7</text>
+		<x>952</x>
+		<y>272</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).OT7B</pv_name>
+		<x>1008</x>
+		<y>272</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Front Panel 0</text>
+		<x>624</x>
+		<y>288</y>
+		<width>80</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).FPS0</pv_name>
+		<x>712</x>
+		<y>288</y>
+		<width>32</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<format>4</format>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).FPS1</pv_name>
+		<x>712</x>
+		<y>320</y>
+		<width>32</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<format>4</format>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).FPS2</pv_name>
+		<x>712</x>
+		<y>352</y>
+		<width>32</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<format>4</format>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).BUSD</pv_name>
+		<x>160</x>
+		<y>8</y>
+		<width>296</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>VME Delay IRQ</text>
+		<x>840</x>
+		<y>608</y>
+		<width>88</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).DVME</pv_name>
+		<x>936</x>
+		<y>608</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DVMD</pv_name>
+		<x>1032</x>
+		<y>608</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).DVMC</pv_name>
+		<x>1096</x>
+		<y>608</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>RX Vio IRQ</text>
+		<x>840</x>
+		<y>640</y>
+		<width>88</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(evr).RXVE</pv_name>
+		<x>936</x>
+		<y>640</y>
+		<width>81</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).RXVC</pv_name>
+		<x>1032</x>
+		<y>640</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>TAXI Violation</text>
+		<x>1016</x>
+		<y>448</y>
+		<width>88</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).TAXI</pv_name>
+		<x>1104</x>
+		<y>448</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>FPGA Version</text>
+		<x>1016</x>
+		<y>480</y>
+		<width>88</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).FPGV</pv_name>
+		<x>1104</x>
+		<y>480</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>4</format>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Front Panel 1</text>
+		<x>624</x>
+		<y>320</y>
+		<width>80</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Front Panel 2</text>
+		<x>624</x>
+		<y>352</y>
+		<width>80</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Width</text>
+		<x>168</x>
+		<y>40</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Delay</text>
+		<x>344</x>
+		<y>40</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Width</text>
+		<x>184</x>
+		<y>520</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Delay</text>
+		<x>360</x>
+		<y>520</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Prescaler</text>
+		<x>536</x>
+		<y>520</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Delay</text>
+		<x>1032</x>
+		<y>584</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Prescaler</text>
+		<x>1088</x>
+		<y>584</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT0W")/124913500)</pv_name>
+		<x>240</x>
+		<y>64</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT1W")/124913500)</pv_name>
+		<x>240</x>
+		<y>96</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT2W")/124913500)</pv_name>
+		<x>240</x>
+		<y>128</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT3W")/124913500)</pv_name>
+		<x>240</x>
+		<y>160</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT4W")/124913500)</pv_name>
+		<x>240</x>
+		<y>192</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT5W")/124913500)</pv_name>
+		<x>240</x>
+		<y>224</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT6W")/124913500)</pv_name>
+		<x>240</x>
+		<y>256</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT7W")/124913500)</pv_name>
+		<x>240</x>
+		<y>288</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT8W")/124913500)</pv_name>
+		<x>240</x>
+		<y>320</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT9W")/124913500)</pv_name>
+		<x>240</x>
+		<y>352</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTAW")/124913500)</pv_name>
+		<x>240</x>
+		<y>384</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTBW")/124913500)</pv_name>
+		<x>240</x>
+		<y>416</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTCW")/124913500)</pv_name>
+		<x>240</x>
+		<y>448</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTDW")/124913500)</pv_name>
+		<x>240</x>
+		<y>480</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT0D")/124913500)</pv_name>
+		<x>416</x>
+		<y>64</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT1D")/124913500)</pv_name>
+		<x>416</x>
+		<y>96</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT2D")/124913500)</pv_name>
+		<x>416</x>
+		<y>128</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT3D")/124913500)</pv_name>
+		<x>416</x>
+		<y>160</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT4D")/124913500)</pv_name>
+		<x>416</x>
+		<y>192</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT5D")/124913500)</pv_name>
+		<x>416</x>
+		<y>224</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT6D")/124913500)</pv_name>
+		<x>416</x>
+		<y>256</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT7D")/124913500)</pv_name>
+		<x>416</x>
+		<y>288</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT8D")/124913500)</pv_name>
+		<x>416</x>
+		<y>320</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OT9D")/124913500)</pv_name>
+		<x>416</x>
+		<y>352</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTAD")/124913500)</pv_name>
+		<x>416</x>
+		<y>384</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTBD")/124913500)</pv_name>
+		<x>416</x>
+		<y>416</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTCD")/124913500)</pv_name>
+		<x>416</x>
+		<y>448</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).OTDD")/124913500)</pv_name>
+		<x>416</x>
+		<y>480</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Polarity</text>
+		<x>520</x>
+		<y>40</y>
+		<width>80</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG0W")/124913500*pv("$(evr).DG0C"))</pv_name>
+		<x>256</x>
+		<y>544</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG0D")/124913500*pv("$(evr).DG0C"))</pv_name>
+		<x>432</x>
+		<y>544</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Polarity</text>
+		<x>616</x>
+		<y>520</y>
+		<width>80</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG1W")/124913500*pv("$(evr).DG1C"))</pv_name>
+		<x>256</x>
+		<y>576</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG2W")/124913500*pv("$(evr).DG2C"))</pv_name>
+		<x>256</x>
+		<y>608</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG3W")/124913500*pv("$(evr).DG3C"))</pv_name>
+		<x>256</x>
+		<y>640</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG1D")/124913500*pv("$(evr).DG1C"))</pv_name>
+		<x>432</x>
+		<y>576</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG2D")/124913500*pv("$(evr).DG2C"))</pv_name>
+		<x>432</x>
+		<y>608</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(pv("$(evr).DG3D")/124913500*pv("$(evr).DG3C"))</pv_name>
+		<x>432</x>
+		<y>640</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>3</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pres 0</text>
+		<x>952</x>
+		<y>336</y>
+		<width>40</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pres 1</text>
+		<x>952</x>
+		<y>368</y>
+		<width>40</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Pres 2</text>
+		<x>952</x>
+		<y>400</y>
+		<width>40</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).PRES0</pv_name>
+		<x>1000</x>
+		<y>336</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).PRES1</pv_name>
+		<x>1000</x>
+		<y>368</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).PRES2</pv_name>
+		<x>1000</x>
+		<y>400</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(124913500/pv("$(evr).PRES0"))</pv_name>
+		<x>1056</x>
+		<y>336</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="monospace" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(124913500/pv("$(evr).PRES1"))</pv_name>
+		<x>1056</x>
+		<y>368</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="monospace" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>=(124913500/pv("$(evr).PRES2"))</pv_name>
+		<x>1056</x>
+		<y>400</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="monospace" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Monitor: BG" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>2</horizontal_alignment>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Co-inc</text>
+		<x>1096</x>
+		<y>272</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>SR Clock</text>
+		<x>1096</x>
+		<y>240</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>BR Clock</text>
+		<x>1096</x>
+		<y>208</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Frequency</text>
+		<x>1056</x>
+		<y>312</y>
+		<width>96</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>erevent records</text>
+		<x>720</x>
+		<y>528</y>
+		<width>104</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>1 MHz</text>
+		<x>1096</x>
+		<y>176</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>1008</x>
+		<y>440</y>
+		<width>153</width>
+		<height>73</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</line_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>n/c</text>
+		<x>1096</x>
+		<y>48</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>n/c</text>
+		<x>1096</x>
+		<y>80</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>n/c</text>
+		<x>1096</x>
+		<y>112</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>n/c</text>
+		<x>1096</x>
+		<y>144</y>
+		<width>64</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>External Event</text>
+		<x>1016</x>
+		<y>528</y>
+		<width>88</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(evr).EXTE</pv_name>
+		<x>1104</x>
+		<y>528</y>
+		<width>48</width>
+		<height>24</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Controller: FG" red="0" green="0" blue="192"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<format>4</format>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="embedded" version="2.0.0">
+		<name>EDM Symbol</name>
+		<file>fps.sym.bob</file>
+		<x>752</x>
+		<y>288</y>
+		<width>176</width>
+		<height>24</height>
+		<group_name>1</group_name>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+				<exp bool_exp="pvSev0==3">
+					<value>0</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+					<value>1</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+					<value>2</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+					<value>3</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+					<value>4</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+					<value>5</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+					<value>6</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+					<value>7</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+					<value>8</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+					<value>9</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+					<value>10</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+					<value>11</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+					<value>12</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+					<value>13</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+					<value>14</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+					<value>15</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+					<value>16</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+					<value>17</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+					<value>18</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+					<value>19</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+					<value>20</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+					<value>21</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+					<value>22</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+					<value>23</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+					<value>24</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+					<value>25</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+					<value>26</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+					<value>27</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+					<value>28</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+					<value>29</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+					<value>30</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+					<value>31</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+					<value>32</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+					<value>33</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+					<value>34</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+					<value>35</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+					<value>36</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+					<value>37</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+					<value>38</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+					<value>39</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+					<value>40</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+					<value>41</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+					<value>42</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+					<value>43</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+					<value>44</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>0</value>
+				</exp>
+				<pv_name>$(evr).FPS0</pv_name>
+			</rule>
+		</rules>
+	</widget>
+	<widget type="embedded" version="2.0.0">
+		<name>EDM Symbol</name>
+		<file>fps.sym.bob</file>
+		<x>752</x>
+		<y>320</y>
+		<width>176</width>
+		<height>24</height>
+		<group_name>1</group_name>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+				<exp bool_exp="pvSev0==3">
+					<value>0</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+					<value>1</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+					<value>2</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+					<value>3</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+					<value>4</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+					<value>5</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+					<value>6</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+					<value>7</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+					<value>8</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+					<value>9</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+					<value>10</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+					<value>11</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+					<value>12</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+					<value>13</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+					<value>14</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+					<value>15</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+					<value>16</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+					<value>17</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+					<value>18</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+					<value>19</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+					<value>20</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+					<value>21</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+					<value>22</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+					<value>23</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+					<value>24</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+					<value>25</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+					<value>26</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+					<value>27</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+					<value>28</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+					<value>29</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+					<value>30</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+					<value>31</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+					<value>32</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+					<value>33</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+					<value>34</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+					<value>35</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+					<value>36</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+					<value>37</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+					<value>38</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+					<value>39</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+					<value>40</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+					<value>41</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+					<value>42</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+					<value>43</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+					<value>44</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>0</value>
+				</exp>
+				<pv_name>$(evr).FPS1</pv_name>
+			</rule>
+		</rules>
+	</widget>
+	<widget type="embedded" version="2.0.0">
+		<name>EDM Symbol</name>
+		<file>fps.sym.bob</file>
+		<x>752</x>
+		<y>352</y>
+		<width>176</width>
+		<height>24</height>
+		<group_name>1</group_name>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+				<exp bool_exp="pvSev0==3">
+					<value>0</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+					<value>1</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+					<value>2</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+					<value>3</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+					<value>4</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+					<value>5</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+					<value>6</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+					<value>7</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+					<value>8</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+					<value>9</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+					<value>10</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+					<value>11</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+					<value>12</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+					<value>13</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+					<value>14</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+					<value>15</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+					<value>16</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+					<value>17</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+					<value>18</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+					<value>19</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+					<value>20</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+					<value>21</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+					<value>22</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+					<value>23</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+					<value>24</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+					<value>25</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+					<value>26</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+					<value>27</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+					<value>28</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+					<value>29</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+					<value>30</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+					<value>31</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+					<value>32</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+					<value>33</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+					<value>34</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+					<value>35</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+					<value>36</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+					<value>37</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+					<value>38</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+					<value>39</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+					<value>40</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+					<value>41</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+					<value>42</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+					<value>43</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+					<value>44</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>0</value>
+				</exp>
+				<pv_name>$(evr).FPS2</pv_name>
+			</rule>
+		</rules>
+	</widget>
+	<widget type="action_button" version="2.0.0">
+		<name>EDM related display</name>
+		<x>752</x>
+		<y>288</y>
+		<width>177</width>
+		<height>25</height>
+		<line_width>0</line_width>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>fps.opi</file>
+				<macros>
+					<evr>$(evr)</evr>
+					<fps>0</fps>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text></text>
+	</widget>
+	<widget type="action_button" version="2.0.0">
+		<name>EDM related display</name>
+		<x>752</x>
+		<y>320</y>
+		<width>177</width>
+		<height>25</height>
+		<line_width>0</line_width>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>fps.opi</file>
+				<macros>
+					<evr>$(evr)</evr>
+					<fps>1</fps>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text></text>
+	</widget>
+	<widget type="action_button" version="2.0.0">
+		<name>EDM related display</name>
+		<x>752</x>
+		<y>352</y>
+		<width>177</width>
+		<height>25</height>
+		<line_width>0</line_width>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<transparent>true</transparent>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>fps.opi</file>
+				<macros>
+					<evr>$(evr)</evr>
+					<fps>2</fps>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text></text>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>0</name>
+		<x>624</x>
+		<y>384</y>
+		<width>305</width>
+		<height>121</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=53248.0&amp;&amp; pv0&lt;61440.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(evr).FPGV</pv_name>
+			</rule>
+		</rules>
+		<widget type="textentry" version="3.0.0">
+			<name>EDM TextInput</name>
+			<pv_name>$(evr).FPS3</pv_name>
+			<x>88</x>
+			<width>32</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Controller: FG" red="0" green="0" blue="192"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 65%" red="166" green="166" blue="166"></color>
+			</background_color>
+			<format>4</format>
+			<show_units>false</show_units>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+		<widget type="textentry" version="3.0.0">
+			<name>EDM TextInput</name>
+			<pv_name>$(evr).FPS4</pv_name>
+			<x>88</x>
+			<y>32</y>
+			<width>32</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Controller: FG" red="0" green="0" blue="192"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 65%" red="166" green="166" blue="166"></color>
+			</background_color>
+			<format>4</format>
+			<show_units>false</show_units>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+		<widget type="textentry" version="3.0.0">
+			<name>EDM TextInput</name>
+			<pv_name>$(evr).FPS5</pv_name>
+			<x>88</x>
+			<y>64</y>
+			<width>32</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Controller: FG" red="0" green="0" blue="192"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 65%" red="166" green="166" blue="166"></color>
+			</background_color>
+			<format>4</format>
+			<show_units>false</show_units>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+		<widget type="textentry" version="3.0.0">
+			<name>EDM TextInput</name>
+			<pv_name>$(evr).FPS6</pv_name>
+			<x>88</x>
+			<y>96</y>
+			<width>32</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Controller: FG" red="0" green="0" blue="192"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 65%" red="166" green="166" blue="166"></color>
+			</background_color>
+			<format>4</format>
+			<show_units>false</show_units>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Front Panel 3</text>
+			<width>80</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Front Panel 4</text>
+			<y>32</y>
+			<width>80</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Front Panel 5</text>
+			<y>64</y>
+			<width>80</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>Front Panel 6</text>
+			<y>96</y>
+			<width>80</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="embedded" version="2.0.0">
+			<name>EDM Symbol</name>
+			<file>fps.sym.bob</file>
+			<x>128</x>
+			<width>176</width>
+			<height>24</height>
+			<group_name>1</group_name>
+			<transparent>true</transparent>
+			<rules>
+				<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+					<exp bool_exp="pvSev0==3">
+						<value>0</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+						<value>1</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+						<value>2</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+						<value>3</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+						<value>4</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+						<value>5</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+						<value>6</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+						<value>7</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+						<value>8</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+						<value>9</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+						<value>10</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+						<value>11</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+						<value>12</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+						<value>13</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+						<value>14</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+						<value>15</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+						<value>16</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+						<value>17</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+						<value>18</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+						<value>19</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+						<value>20</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+						<value>21</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+						<value>22</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+						<value>23</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+						<value>24</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+						<value>25</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+						<value>26</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+						<value>27</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+						<value>28</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+						<value>29</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+						<value>30</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+						<value>31</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+						<value>32</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+						<value>33</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+						<value>34</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+						<value>35</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+						<value>36</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+						<value>37</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+						<value>38</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+						<value>39</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+						<value>40</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+						<value>41</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+						<value>42</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+						<value>43</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+						<value>44</value>
+					</exp>
+					<exp bool_exp="true">
+						<value>0</value>
+					</exp>
+					<pv_name>$(evr).FPS3</pv_name>
+				</rule>
+			</rules>
+		</widget>
+		<widget type="embedded" version="2.0.0">
+			<name>EDM Symbol</name>
+			<file>fps.sym.bob</file>
+			<x>128</x>
+			<y>32</y>
+			<width>176</width>
+			<height>24</height>
+			<group_name>1</group_name>
+			<transparent>true</transparent>
+			<rules>
+				<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+					<exp bool_exp="pvSev0==3">
+						<value>0</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+						<value>1</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+						<value>2</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+						<value>3</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+						<value>4</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+						<value>5</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+						<value>6</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+						<value>7</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+						<value>8</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+						<value>9</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+						<value>10</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+						<value>11</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+						<value>12</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+						<value>13</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+						<value>14</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+						<value>15</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+						<value>16</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+						<value>17</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+						<value>18</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+						<value>19</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+						<value>20</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+						<value>21</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+						<value>22</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+						<value>23</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+						<value>24</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+						<value>25</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+						<value>26</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+						<value>27</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+						<value>28</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+						<value>29</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+						<value>30</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+						<value>31</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+						<value>32</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+						<value>33</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+						<value>34</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+						<value>35</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+						<value>36</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+						<value>37</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+						<value>38</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+						<value>39</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+						<value>40</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+						<value>41</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+						<value>42</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+						<value>43</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+						<value>44</value>
+					</exp>
+					<exp bool_exp="true">
+						<value>0</value>
+					</exp>
+					<pv_name>$(evr).FPS4</pv_name>
+				</rule>
+			</rules>
+		</widget>
+		<widget type="embedded" version="2.0.0">
+			<name>EDM Symbol</name>
+			<file>fps.sym.bob</file>
+			<x>128</x>
+			<y>64</y>
+			<width>176</width>
+			<height>24</height>
+			<group_name>1</group_name>
+			<transparent>true</transparent>
+			<rules>
+				<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+					<exp bool_exp="pvSev0==3">
+						<value>0</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+						<value>1</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+						<value>2</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+						<value>3</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+						<value>4</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+						<value>5</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+						<value>6</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+						<value>7</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+						<value>8</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+						<value>9</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+						<value>10</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+						<value>11</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+						<value>12</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+						<value>13</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+						<value>14</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+						<value>15</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+						<value>16</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+						<value>17</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+						<value>18</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+						<value>19</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+						<value>20</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+						<value>21</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+						<value>22</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+						<value>23</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+						<value>24</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+						<value>25</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+						<value>26</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+						<value>27</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+						<value>28</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+						<value>29</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+						<value>30</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+						<value>31</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+						<value>32</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+						<value>33</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+						<value>34</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+						<value>35</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+						<value>36</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+						<value>37</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+						<value>38</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+						<value>39</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+						<value>40</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+						<value>41</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+						<value>42</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+						<value>43</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+						<value>44</value>
+					</exp>
+					<exp bool_exp="true">
+						<value>0</value>
+					</exp>
+					<pv_name>$(evr).FPS5</pv_name>
+				</rule>
+			</rules>
+		</widget>
+		<widget type="embedded" version="2.0.0">
+			<name>EDM Symbol</name>
+			<file>fps.sym.bob</file>
+			<x>128</x>
+			<y>96</y>
+			<width>176</width>
+			<height>24</height>
+			<group_name>1</group_name>
+			<transparent>true</transparent>
+			<rules>
+				<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+					<exp bool_exp="pvSev0==3">
+						<value>0</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=-1.0&amp;&amp;pv0&lt;0.0">
+						<value>1</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+						<value>2</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+						<value>3</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+						<value>4</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+						<value>5</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=4.0&amp;&amp;pv0&lt;5.0">
+						<value>6</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=5.0&amp;&amp;pv0&lt;6.0">
+						<value>7</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=6.0&amp;&amp;pv0&lt;7.0">
+						<value>8</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=7.0&amp;&amp;pv0&lt;8.0">
+						<value>9</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=8.0&amp;&amp;pv0&lt;9.0">
+						<value>10</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=9.0&amp;&amp;pv0&lt;10.0">
+						<value>11</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=10.0&amp;&amp;pv0&lt;11.0">
+						<value>12</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=11.0&amp;&amp;pv0&lt;12.0">
+						<value>13</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=12.0&amp;&amp;pv0&lt;13.0">
+						<value>14</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=13.0&amp;&amp;pv0&lt;14.0">
+						<value>15</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=14.0&amp;&amp;pv0&lt;15.0">
+						<value>16</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=15.0&amp;&amp;pv0&lt;16.0">
+						<value>17</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=16.0&amp;&amp;pv0&lt;17.0">
+						<value>18</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=17.0&amp;&amp;pv0&lt;18.0">
+						<value>19</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=18.0&amp;&amp;pv0&lt;19.0">
+						<value>20</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=19.0&amp;&amp;pv0&lt;20.0">
+						<value>21</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=20.0&amp;&amp;pv0&lt;21.0">
+						<value>22</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=21.0&amp;&amp;pv0&lt;22.0">
+						<value>23</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=22.0&amp;&amp;pv0&lt;23.0">
+						<value>24</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=23.0&amp;&amp;pv0&lt;24.0">
+						<value>25</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=24.0&amp;&amp;pv0&lt;25.0">
+						<value>26</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=25.0&amp;&amp;pv0&lt;26.0">
+						<value>27</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=26.0&amp;&amp;pv0&lt;27.0">
+						<value>28</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=27.0&amp;&amp;pv0&lt;28.0">
+						<value>29</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=28.0&amp;&amp;pv0&lt;29.0">
+						<value>30</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=29.0&amp;&amp;pv0&lt;30.0">
+						<value>31</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=30.0&amp;&amp;pv0&lt;31.0">
+						<value>32</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=31.0&amp;&amp;pv0&lt;32.0">
+						<value>33</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=32.0&amp;&amp;pv0&lt;33.0">
+						<value>34</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=33.0&amp;&amp;pv0&lt;34.0">
+						<value>35</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=34.0&amp;&amp;pv0&lt;35.0">
+						<value>36</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=35.0&amp;&amp;pv0&lt;36.0">
+						<value>37</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=36.0&amp;&amp;pv0&lt;37.0">
+						<value>38</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=37.0&amp;&amp;pv0&lt;38.0">
+						<value>39</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=38.0&amp;&amp;pv0&lt;39.0">
+						<value>40</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=39.0&amp;&amp;pv0&lt;40.0">
+						<value>41</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=40.0&amp;&amp;pv0&lt;41.0">
+						<value>42</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=41.0&amp;&amp;pv0&lt;42.0">
+						<value>43</value>
+					</exp>
+					<exp bool_exp="pv0&gt;=42.0&amp;&amp;pv0&lt;43.0">
+						<value>44</value>
+					</exp>
+					<exp bool_exp="true">
+						<value>0</value>
+					</exp>
+					<pv_name>$(evr).FPS6</pv_name>
+				</rule>
+			</rules>
+		</widget>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<x>128</x>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>fps.opi</file>
+					<macros>
+						<evr>$(evr)</evr>
+						<fps>3</fps>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<x>128</x>
+			<y>32</y>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>fps.opi</file>
+					<macros>
+						<evr>$(evr)</evr>
+						<fps>4</fps>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<x>128</x>
+			<y>64</y>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>fps.opi</file>
+					<macros>
+						<evr>$(evr)</evr>
+						<fps>5</fps>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<x>128</x>
+			<y>96</y>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>fps.opi</file>
+					<macros>
+						<evr>$(evr)</evr>
+						<fps>6</fps>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>erevent.bob</file>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>erevent</text>
+		<x>832</x>
+		<y>528</y>
+		<width>97</width>
+		<height>25</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Related Display: FG" red="128" green="64" blue="32"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+</display>

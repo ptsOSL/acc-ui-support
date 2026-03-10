@@ -960,7 +960,7 @@ $(ioc)</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_reboot_confirm.bob</file>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Reboot...</text>
@@ -2678,7 +2678,7 @@ since 1990</text>
 			<action type="open_display">
 				<description>$(ioc) Alarm Limits</description>
 				<file>ioc_stats_limits.bob</file>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Alarm Limits...</text>
@@ -2704,7 +2704,7 @@ since 1990</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_epics_env.bob</file>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>EPICS Env Vars...</text>
@@ -2735,7 +2735,7 @@ since 1990</text>
 					<idx>0</idx>
 					<p>1</p>
 				</macros>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Release Versions...</text>
@@ -2764,7 +2764,7 @@ since 1990</text>
 				<macros>
 					<ioc>$(ioc)</ioc>
 				</macros>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Scan Monitor...</text>
@@ -2790,7 +2790,7 @@ since 1990</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_reloadacf_confirm.bob</file>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Reload Access Security Conf File...</text>

@@ -634,8 +634,8 @@
 		<actions>
 			<action type="open_display">
 				<description>Open Display</description>
-				<file>./rgaBarChart.bob</file>
-				<target>standalone</target>
+				<file>rgaBarChart.bob</file>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Bar Chart</text>

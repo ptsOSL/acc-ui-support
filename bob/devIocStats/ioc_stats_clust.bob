@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>$(ioc) $(name) Pool</name>
+	<x>749</x>
+	<y>169</y>
+	<width>540</width>
+	<height>310</height>
+	<background_color>
+		<color name="grey-7" red="145" green="145" blue="145"></color>
+	</background_color>
+	<grid_step_x>5</grid_step_x>
+	<grid_step_y>5</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>10</x>
+		<y>50</y>
+		<width>521</width>
+		<height>251</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_MBUF_FREE</pv_name>
+		<x>429</x>
+		<y>154</y>
+		<width>87</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_MBUF_MAX</pv_name>
+		<x>429</x>
+		<y>209</y>
+		<width>87</width>
+		<height>27</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Size</text>
+		<x>35</x>
+		<y>75</y>
+		<width>24</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Clusters</text>
+		<x>100</x>
+		<y>75</y>
+		<width>45</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Free</text>
+		<x>185</x>
+		<y>75</y>
+		<width>26</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Usage</text>
+		<x>340</x>
+		<y>75</y>
+		<width>35</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>$(name) Pool</text>
+		<x>205</x>
+		<y>55</y>
+		<width>85</width>
+		<height>16</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_0_1</pv_name>
+		<x>89</x>
+		<y>94</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_0_3</pv_name>
+		<x>314</x>
+		<y>94</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_0_2</pv_name>
+		<x>164</x>
+		<y>94</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_1_0</pv_name>
+		<x>14</x>
+		<y>119</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_1_1</pv_name>
+		<x>89</x>
+		<y>119</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_1_3</pv_name>
+		<x>314</x>
+		<y>119</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_1_2</pv_name>
+		<x>164</x>
+		<y>119</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_2_0</pv_name>
+		<x>14</x>
+		<y>144</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_2_1</pv_name>
+		<x>89</x>
+		<y>144</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_2_3</pv_name>
+		<x>314</x>
+		<y>144</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_2_2</pv_name>
+		<x>164</x>
+		<y>144</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_3_0</pv_name>
+		<x>14</x>
+		<y>169</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_3_1</pv_name>
+		<x>89</x>
+		<y>169</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_3_3</pv_name>
+		<x>314</x>
+		<y>169</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_3_2</pv_name>
+		<x>164</x>
+		<y>169</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_4_0</pv_name>
+		<x>14</x>
+		<y>194</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_4_1</pv_name>
+		<x>89</x>
+		<y>194</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_4_3</pv_name>
+		<x>314</x>
+		<y>194</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_4_2</pv_name>
+		<x>164</x>
+		<y>194</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_5_0</pv_name>
+		<x>14</x>
+		<y>219</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_5_1</pv_name>
+		<x>89</x>
+		<y>219</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_5_3</pv_name>
+		<x>314</x>
+		<y>219</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_5_2</pv_name>
+		<x>164</x>
+		<y>219</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_6_0</pv_name>
+		<x>14</x>
+		<y>244</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_6_1</pv_name>
+		<x>89</x>
+		<y>244</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_6_3</pv_name>
+		<x>314</x>
+		<y>244</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_6_2</pv_name>
+		<x>164</x>
+		<y>244</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_7_0</pv_name>
+		<x>14</x>
+		<y>269</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_7_1</pv_name>
+		<x>89</x>
+		<y>269</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_7_3</pv_name>
+		<x>314</x>
+		<y>269</y>
+		<width>97</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_7_2</pv_name>
+		<x>164</x>
+		<y>269</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Total % Free</text>
+		<x>435</x>
+		<y>135</y>
+		<width>72</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Max</text>
+		<x>455</x>
+		<y>190</y>
+		<width>24</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>MBUFs</text>
+		<x>445</x>
+		<y>100</y>
+		<width>49</width>
+		<height>16</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<width>541</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</line_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Exit Button</name>
+		<actions>
+			<action type="close_display">
+				<description>Close display</description>
+			</action>
+		</actions>
+		<text>Exit</text>
+		<x>480</x>
+		<y>10</y>
+		<width>51</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>IOC $(name) Pool Cluster Info
+$(ioc)</text>
+		<x>10</x>
+		<width>285</width>
+		<height>40</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CLUST_$(idx)_0_0</pv_name>
+		<x>14</x>
+		<y>94</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Free %</text>
+		<x>260</x>
+		<y>75</y>
+		<width>41</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_0</pv_name>
+		<x>239</x>
+		<y>94</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_1</pv_name>
+		<x>239</x>
+		<y>119</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_2</pv_name>
+		<x>239</x>
+		<y>144</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_3</pv_name>
+		<x>239</x>
+		<y>169</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_4</pv_name>
+		<x>239</x>
+		<y>194</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_5</pv_name>
+		<x>239</x>
+		<y>219</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_6</pv_name>
+		<x>239</x>
+		<y>244</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):$(pool)_CLUST_AVAIL_7</pv_name>
+		<x>239</x>
+		<y>269</y>
+		<width>67</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+</display>

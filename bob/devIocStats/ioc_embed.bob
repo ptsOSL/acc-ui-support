@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<x>368</x>
+	<y>305</y>
+	<width>180</width>
+	<height>20</height>
+	<background_color>
+		<color name="Canvas" red="200" green="200" blue="200"></color>
+	</background_color>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>$(EDM_FILE).bob</file>
+				<macros>
+					<ioc>$(ioc)</ioc>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>$(label)</text>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Related Display: FG" red="128" green="64" blue="32"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM shell command</name>
+		<actions>
+			<action type="command">
+				<description>Execute Command</description>
+				<command>gnome-terminal --hide-menubar -t "$(ioc)" -e "$(which console) -g $(ioc)"</command>
+			</action>
+		</actions>
+		<text>Terminal</text>
+		<x>120</x>
+		<width>61</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Related Display: FG" red="128" green="64" blue="32"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="embedded" version="2.0.0">
+		<name>EDM Symbol</name>
+		<file>symbols-traffic-light-symbol.bob</file>
+		<x>100</x>
+		<width>20</width>
+		<height>20</height>
+		<group_name>1</group_name>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="symbol_single_pv" prop_id="group_name" out_exp="false">
+				<exp bool_exp="pvSev0==3">
+					<value>0</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=3.0&amp;&amp;pv0&lt;4.0">
+					<value>0</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=0.0&amp;&amp;pv0&lt;1.0">
+					<value>1</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=1.0&amp;&amp;pv0&lt;2.0">
+					<value>2</value>
+				</exp>
+				<exp bool_exp="pv0&gt;=2.0&amp;&amp;pv0&lt;3.0">
+					<value>3</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>0</value>
+				</exp>
+				<pv_name>$(ioc):LOAD.SEVR</pv_name>
+			</rule>
+		</rules>
+	</widget>
+</display>

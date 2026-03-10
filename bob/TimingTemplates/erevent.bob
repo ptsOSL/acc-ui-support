@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>erevent PVs</name>
+	<x>705</x>
+	<y>162</y>
+	<width>281</width>
+	<height>697</height>
+	<background_color>
+		<color name="Canvas" red="200" green="200" blue="200"></color>
+	</background_color>
+	<grid_step_x>8</grid_step_x>
+	<grid_step_y>8</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>88</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>120</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>152</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>184</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>216</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>248</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>280</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>312</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>344</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>376</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>408</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>440</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>472</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>504</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>536</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>56</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="combo" version="2.0.0">
+		<name>EDM menu button</name>
+		<pv_name>$(device):EREVENT:SEL</pv_name>
+		<x>64</x>
+		<y>8</y>
+		<width>113</width>
+		<height>33</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>0</name>
+		<x>8</x>
+		<y>536</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=16.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev16)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev16)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev16).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>1</name>
+		<x>8</x>
+		<y>504</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=15.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev15)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev15)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev15).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>2</name>
+		<x>8</x>
+		<y>472</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=14.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev14)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev14)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev14).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>3</name>
+		<x>8</x>
+		<y>440</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=13.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev13)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev13)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev13).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>4</name>
+		<x>8</x>
+		<y>408</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=12.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev12)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev12)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev12).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>5</name>
+		<x>8</x>
+		<y>376</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=11.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev11)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev11)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev11).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>6</name>
+		<x>8</x>
+		<y>344</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=10.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev10)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev10)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev10).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>7</name>
+		<x>8</x>
+		<y>312</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=9.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev9)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev9)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev9).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>8</name>
+		<x>8</x>
+		<y>280</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=8.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev8)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev8)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev8).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>9</name>
+		<x>8</x>
+		<y>248</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=7.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev7)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev7)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev7).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>10</name>
+		<x>8</x>
+		<y>216</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=6.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev6)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev6)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev6).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>11</name>
+		<x>8</x>
+		<y>184</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=5.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev5)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev5)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev5).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>12</name>
+		<x>8</x>
+		<y>152</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=4.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev4)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev4)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev4).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>13</name>
+		<x>8</x>
+		<y>120</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=3.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev3)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev3)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev3).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>14</name>
+		<x>8</x>
+		<y>88</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=2.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev2)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev2)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev2).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>15</name>
+		<x>8</x>
+		<y>56</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=1.0&amp;&amp; pv0&lt;17.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev1)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev1)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev1).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Range</text>
+		<x>8</x>
+		<y>8</y>
+		<width>48</width>
+		<height>32</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="12.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>568</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>600</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>632</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>8</x>
+		<y>664</y>
+		<width>265</width>
+		<height>25</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 90%" red="230" green="230" blue="230"></color>
+		</background_color>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>16</name>
+		<x>8</x>
+		<y>664</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=20.0&amp;&amp; pv0&lt;21.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev20)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev20)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev20).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>17</name>
+		<x>8</x>
+		<y>632</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=19.0&amp;&amp; pv0&lt;21.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev19)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev19)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev19).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>18</name>
+		<x>8</x>
+		<y>600</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=18.0&amp;&amp; pv0&lt;21.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev18)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev18)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev18).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+	<widget type="group" version="3.0.0">
+		<name>19</name>
+		<x>8</x>
+		<y>568</y>
+		<width>265</width>
+		<height>25</height>
+		<style>3</style>
+		<foreground_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</foreground_color>
+		<line_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</line_color>
+		<transparent>true</transparent>
+		<rules>
+			<rule name="visibleRule" prop_id="visible" out_exp="false">
+				<exp bool_exp="pv0&gt;=18.0&amp;&amp; pv0&lt;21.0">
+					<value>true</value>
+				</exp>
+				<exp bool_exp="true">
+					<value>false</value>
+				</exp>
+				<pv_name>$(device):EREVENT.VALU</pv_name>
+			</rule>
+		</rules>
+		<widget type="action_button" version="2.0.0">
+			<name>EDM related display</name>
+			<width>177</width>
+			<height>25</height>
+			<line_width>0</line_width>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<transparent>true</transparent>
+			<actions>
+				<action type="open_display">
+					<description>Open Display</description>
+					<file>inspectpv.opi</file>
+					<macros>
+						<name>$(ev17)</name>
+					</macros>
+					<target>window</target>
+				</action>
+			</actions>
+			<text></text>
+		</widget>
+		<widget type="label" version="2.0.0">
+			<name>EDM Label</name>
+			<text>$(ev17)</text>
+			<width>168</width>
+			<height>24</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Text: FG" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="White" red="255" green="255" blue="255"></color>
+			</background_color>
+			<vertical_alignment>1</vertical_alignment>
+			<border_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</border_color>
+		</widget>
+		<widget type="combo" version="2.0.0">
+			<name>EDM menu button</name>
+			<pv_name>$(ev17).ENAB</pv_name>
+			<x>184</x>
+			<width>81</width>
+			<height>25</height>
+			<font>
+				<font family="liberation sans" style="REGULAR" size="12.0"></font>
+			</font>
+			<foreground_color>
+				<color name="Black" red="0" green="0" blue="0"></color>
+			</foreground_color>
+			<background_color>
+				<color name="Grey 75%" red="192" green="192" blue="192"></color>
+			</background_color>
+			<border_alarm_sensitive>false</border_alarm_sensitive>
+		</widget>
+	</widget>
+</display>

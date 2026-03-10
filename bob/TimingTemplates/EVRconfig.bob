@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<x>955</x>
+	<y>449</y>
+	<width>729</width>
+	<height>621</height>
+	<background_color>
+		<color name="Canvas" red="200" green="200" blue="200"></color>
+	</background_color>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>BL01B-DI-EVR-01:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>BL01B-DI-IOC-01</text>
+		<x>120</x>
+		<y>10</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>BR01C-RF-EVR-02:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>BR-RF-IOC-02</text>
+		<x>10</x>
+		<y>40</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR01C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR01C-MP-IOC-01</text>
+		<x>170</x>
+		<y>90</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR02C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR02C-MP-IOC-01</text>
+		<x>170</x>
+		<y>110</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR03C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR03C-MP-IOC-01</text>
+		<x>170</x>
+		<y>130</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR04C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR04C-MP-IOC-01</text>
+		<x>170</x>
+		<y>150</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR05C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR05C-MP-IOC-01</text>
+		<x>170</x>
+		<y>170</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR06C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR06C-MP-IOC-01</text>
+		<x>170</x>
+		<y>190</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR07C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR07C-MP-IOC-01</text>
+		<x>170</x>
+		<y>210</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR08C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR08C-MP-IOC-01</text>
+		<x>170</x>
+		<y>230</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR09C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR09C-MP-IOC-01</text>
+		<x>170</x>
+		<y>250</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR10C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR10C-MP-IOC-01</text>
+		<x>170</x>
+		<y>270</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR11C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR11C-MP-IOC-01</text>
+		<x>170</x>
+		<y>290</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR12C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR12C-MP-IOC-01</text>
+		<x>170</x>
+		<y>310</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR13C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR13C-MP-IOC-01</text>
+		<x>170</x>
+		<y>330</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR14C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR14C-MP-IOC-01</text>
+		<x>170</x>
+		<y>350</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR15C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR15C-MP-IOC-01</text>
+		<x>170</x>
+		<y>370</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR16C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR16C-MP-IOC-01</text>
+		<x>170</x>
+		<y>390</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR17C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR17C-MP-IOC-01</text>
+		<x>170</x>
+		<y>410</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR18C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR18C-MP-IOC-01</text>
+		<x>170</x>
+		<y>430</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR19C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR19C-MP-IOC-01</text>
+		<x>170</x>
+		<y>450</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR20C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR20C-MP-IOC-01</text>
+		<x>170</x>
+		<y>470</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR21C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR21C-MP-IOC-01</text>
+		<x>170</x>
+		<y>490</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR22C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR22C-MP-IOC-01</text>
+		<x>170</x>
+		<y>510</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR23C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR23C-MP-IOC-01</text>
+		<x>170</x>
+		<y>530</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR24C-MP-EVR-01:SET-ER</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR24C-MP-IOC-01</text>
+		<x>170</x>
+		<y>550</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>LI-TI-EVR-01:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>LI-TI-IOC-01</text>
+		<x>10</x>
+		<y>10</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-11:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR-RF-IOC-11</text>
+		<x>290</x>
+		<y>90</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-21:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR-RF-IOC-21</text>
+		<x>290</x>
+		<y>110</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-31:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR-RF-IOC-31</text>
+		<x>290</x>
+		<y>130</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-01:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR17S-RF-IOC-01</text>
+		<x>410</x>
+		<y>90</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-02:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR17S-RF-IOC-02</text>
+		<x>410</x>
+		<y>110</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR-RF-EVR-03:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR17S-RF-IOC-03</text>
+		<x>410</x>
+		<y>130</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR01S-PC-EVR-01:SET-HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR01A-PC-IOC-03</text>
+		<x>50</x>
+		<y>90</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR01C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR01C-DI-IOC-01</text>
+		<x>520</x>
+		<y>90</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR02C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR02C-DI-IOC-01</text>
+		<x>520</x>
+		<y>110</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR03C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR03C-DI-IOC-01</text>
+		<x>520</x>
+		<y>130</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR04C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR04C-DI-IOC-01</text>
+		<x>520</x>
+		<y>150</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR05C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR05C-DI-IOC-01</text>
+		<x>520</x>
+		<y>170</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR06C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR06C-DI-IOC-01</text>
+		<x>520</x>
+		<y>190</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR07C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR07C-DI-IOC-01</text>
+		<x>520</x>
+		<y>210</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR08C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR08C-DI-IOC-01</text>
+		<x>520</x>
+		<y>230</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR09C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR09C-DI-IOC-01</text>
+		<x>520</x>
+		<y>250</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR10C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR10C-DI-IOC-01</text>
+		<x>520</x>
+		<y>270</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR11C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR11C-DI-IOC-01</text>
+		<x>520</x>
+		<y>290</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR12C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR12C-DI-IOC-01</text>
+		<x>520</x>
+		<y>310</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR13C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR13C-DI-IOC-01</text>
+		<x>520</x>
+		<y>330</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR14C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR14C-DI-IOC-01</text>
+		<x>520</x>
+		<y>350</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR15C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR15C-DI-IOC-01</text>
+		<x>520</x>
+		<y>370</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR16C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR16C-DI-IOC-01</text>
+		<x>520</x>
+		<y>390</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR17C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR17C-DI-IOC-01</text>
+		<x>520</x>
+		<y>410</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR180C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR18C-DI-IOC-01</text>
+		<x>520</x>
+		<y>430</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR19C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR19C-DI-IOC-01</text>
+		<x>520</x>
+		<y>450</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR20C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR20C-DI-IOC-01</text>
+		<x>520</x>
+		<y>470</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR21C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR21C-DI-IOC-01</text>
+		<x>520</x>
+		<y>490</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR22C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR22C-DI-IOC-01</text>
+		<x>520</x>
+		<y>510</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR23C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR23C-DI-IOC-01</text>
+		<x>520</x>
+		<y>530</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM related display</name>
+		<actions>
+			<action type="open_display">
+				<description>Open Display</description>
+				<file>evr.bob</file>
+				<macros>
+					<evr>SR24C-DI-EVR-01:SET_HW</evr>
+				</macros>
+				<target>window</target>
+			</action>
+		</actions>
+		<text>SR24C-DI-IOC-01</text>
+		<x>520</x>
+		<y>550</y>
+		<width>101</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="10.0"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+</display>

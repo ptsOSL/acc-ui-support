@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>$(ioc) EPICS Env Vars</name>
+	<x>44</x>
+	<y>77</y>
+	<width>520</width>
+	<height>370</height>
+	<background_color>
+		<color name="Title" red="158" green="158" blue="158"></color>
+	</background_color>
+	<grid_step_x>5</grid_step_x>
+	<grid_step_y>5</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>10</x>
+		<y>50</y>
+		<width>501</width>
+		<height>311</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_REPEATER_PORT</text>
+		<x>15</x>
+		<y>80</y>
+		<width>172</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_RPTR_PORT</pv_name>
+		<x>279</x>
+		<y>79</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_SERVER_PORT</text>
+		<x>15</x>
+		<y>55</y>
+		<width>157</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_SRVR_PORT</pv_name>
+		<x>279</x>
+		<y>54</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_CONN_TMO (sec)</text>
+		<x>15</x>
+		<y>180</y>
+		<width>172</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_CONN_TIME</pv_name>
+		<x>279</x>
+		<y>179</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_ADDR_LIST</text>
+		<x>15</x>
+		<y>105</y>
+		<width>135</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_ADDR_LIST</pv_name>
+		<x>189</x>
+		<y>104</y>
+		<width>312</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_AUTO_ADDR_LIST</text>
+		<x>15</x>
+		<y>130</y>
+		<width>176</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_AUTO_ADDR</pv_name>
+		<x>279</x>
+		<y>129</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_MAX_SEARCH_PERIOD (sec)</text>
+		<x>15</x>
+		<y>205</y>
+		<width>240</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_SRCH_TIME</pv_name>
+		<x>279</x>
+		<y>204</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_BEACON_PERIOD (sec)</text>
+		<x>15</x>
+		<y>230</y>
+		<width>206</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_BEAC_TIME</pv_name>
+		<x>279</x>
+		<y>229</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_CA_MAX_ARRAY_BYTES</text>
+		<x>15</x>
+		<y>155</y>
+		<width>194</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):CA_MAX_ARRAY</pv_name>
+		<x>279</x>
+		<y>154</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_TIMEZONE</text>
+		<x>15</x>
+		<y>255</y>
+		<width>108</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):TIMEZONE</pv_name>
+		<x>189</x>
+		<y>254</y>
+		<width>312</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_TS_NTP_INET</text>
+		<x>15</x>
+		<y>280</y>
+		<width>123</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):TS_NTP_INET</pv_name>
+		<x>279</x>
+		<y>279</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):IOC_LOG_PORT</pv_name>
+		<x>280</x>
+		<y>305</y>
+		<width>151</width>
+		<height>21</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_IOC_LOG_PORT</text>
+		<x>15</x>
+		<y>305</y>
+		<width>138</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):IOC_LOG_INET</pv_name>
+		<x>279</x>
+		<y>329</y>
+		<width>152</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>0</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS_IOC_LOG_INET</text>
+		<x>15</x>
+		<y>330</y>
+		<width>132</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<width>521</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</line_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>EPICS Environment Variables
+$(ioc)</text>
+		<x>5</x>
+		<width>200</width>
+		<height>40</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Exit Button</name>
+		<actions>
+			<action type="close_display">
+				<description>Close display</description>
+			</action>
+		</actions>
+		<text>Exit</text>
+		<x>455</x>
+		<y>10</y>
+		<width>51</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+</display>

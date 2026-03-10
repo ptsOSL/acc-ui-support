@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display version="2.0.0">
+	<name>$(ioc) ScanMon</name>
+	<x>533</x>
+	<y>57</y>
+	<width>540</width>
+	<height>350</height>
+	<background_color>
+		<color name="Title" red="158" green="158" blue="158"></color>
+	</background_color>
+	<grid_step_x>5</grid_step_x>
+	<grid_step_y>5</grid_step_y>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<x>15</x>
+		<y>50</y>
+		<width>511</width>
+		<height>291</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</line_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+	</widget>
+	<widget type="rectangle" version="2.0.0">
+		<name>EDM Rectangle</name>
+		<width>541</width>
+		<height>41</height>
+		<line_width>1</line_width>
+		<line_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</line_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>IOC Diagnostics ScanMon
+$(ioc)</text>
+		<x>5</x>
+		<width>200</width>
+		<height>40</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="VA title" red="202" green="223" blue="159"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="action_button" version="3.0.0">
+		<name>EDM Exit Button</name>
+		<actions>
+			<action type="close_display">
+				<description>Close display</description>
+			</action>
+		</actions>
+		<text>Exit</text>
+		<x>475</x>
+		<y>10</y>
+		<width>51</width>
+		<height>26</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 75%" red="192" green="192" blue="192"></color>
+		</background_color>
+		<tooltip>$(actions)</tooltip>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>5Hz Thread Scan</text>
+		<x>35</x>
+		<y>145</y>
+		<width>98</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):5HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>141</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>0.5Hz Thread Scan</text>
+		<x>35</x>
+		<y>235</y>
+		<width>108</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>0.2Hz Thread Scan</text>
+		<x>35</x>
+		<y>265</y>
+		<width>108</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>1Hz Thread Scan</text>
+		<x>35</x>
+		<y>205</y>
+		<width>98</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>2Hz Thread Scan</text>
+		<x>35</x>
+		<y>175</y>
+		<width>98</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>0.1Hz Thread Scan</text>
+		<x>35</x>
+		<y>295</y>
+		<width>108</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):2HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>171</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):1HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>201</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):02HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>259</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):05HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>231</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):01HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>289</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Scan Mode</text>
+		<x>265</x>
+		<y>80</y>
+		<width>65</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>10Hz Thread Scan</text>
+		<x>35</x>
+		<y>115</y>
+		<width>105</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textupdate" version="2.0.0">
+		<name>EDM Text Update</name>
+		<pv_name>$(ioc):10HZ_UPD_TIME</pv_name>
+		<x>149</x>
+		<y>111</y>
+		<width>82</width>
+		<height>22</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Monitor: FG" red="96" green="255" blue="96"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 25%" red="64" green="64" blue="64"></color>
+		</background_color>
+		<format>1</format>
+		<precision>5</precision>
+		<show_units>false</show_units>
+		<horizontal_alignment>1</horizontal_alignment>
+		<border_color>
+			<color name="Mid Green" red="0" green="192" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Time (sec)</text>
+		<x>155</x>
+		<y>80</y>
+		<width>58</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="White" red="255" green="255" blue="255"></color>
+		</background_color>
+		<horizontal_alignment>1</horizontal_alignment>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Minor</text>
+		<x>395</x>
+		<y>80</y>
+		<width>32</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Major</text>
+		<x>460</x>
+		<y>80</y>
+		<width>32</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):10HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>110</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):10HZ_MODE</pv_name>
+		<x>240</x>
+		<y>110</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):5HZ_MODE</pv_name>
+		<x>240</x>
+		<y>140</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):2HZ_MODE</pv_name>
+		<x>240</x>
+		<y>170</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):1HZ_MODE</pv_name>
+		<x>240</x>
+		<y>200</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):05HZ_MODE</pv_name>
+		<x>240</x>
+		<y>230</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):02HZ_MODE</pv_name>
+		<x>240</x>
+		<y>260</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="choice" version="2.0.0">
+		<name>EDM choice  Button</name>
+		<pv_name>$(ioc):01HZ_MODE</pv_name>
+		<x>240</x>
+		<y>290</y>
+		<width>120</width>
+		<height>20</height>
+		<font>
+			<font family="liberation sans" style="BOLD" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Controller: BG" red="205" green="205" blue="205"></color>
+		</background_color>
+		<selected_color>
+			<color name="Button: On" red="190" green="190" blue="190"></color>
+		</selected_color>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<items>
+			<item>Item 1</item>
+			<item>Item 2</item>
+		</items>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):10HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>110</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):5HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>140</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):5HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>140</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):1HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>200</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):1HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>200</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):05HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>230</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):05HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>230</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):2HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>170</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):2HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>170</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):02HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>260</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):02HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>260</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):01HZ_UPD_TIME.C</pv_name>
+		<x>450</x>
+		<y>290</y>
+		<width>65</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="textentry" version="3.0.0">
+		<name>EDM TextInput</name>
+		<pv_name>$(ioc):01HZ_UPD_TIME.B</pv_name>
+		<x>370</x>
+		<y>290</y>
+		<width>70</width>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="9.900990099009901"></font>
+		</font>
+		<foreground_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Grey 65%" red="166" green="166" blue="166"></color>
+		</background_color>
+		<show_units>false</show_units>
+		<border_alarm_sensitive>false</border_alarm_sensitive>
+	</widget>
+	<widget type="label" version="2.0.0">
+		<name>EDM Label</name>
+		<text>Tolerance (%)</text>
+		<x>405</x>
+		<y>60</y>
+		<width>79</width>
+		<height>14</height>
+		<font>
+			<font family="liberation sans" style="REGULAR" size="8.910891089108912"></font>
+		</font>
+		<foreground_color>
+			<color name="Text: FG" red="0" green="0" blue="0"></color>
+		</foreground_color>
+		<background_color>
+			<color name="Canvas" red="200" green="200" blue="200"></color>
+		</background_color>
+		<vertical_alignment>1</vertical_alignment>
+		<auto_size>true</auto_size>
+		<border_color>
+			<color name="Black" red="0" green="0" blue="0"></color>
+		</border_color>
+	</widget>
+</display>

@@ -54,13 +54,13 @@
 		<actions execute_as_one="true">
 			<action type="open_display">
 				<description>Open Display</description>
-				<file>../dlsPLC/NX102_interlock_small_detail.bob</file>
+				<file>fe-ui-support/bob/dlsPLC/NX102_interlock_small_detail.bob</file>
 				<macros>
 					<device>$(device):MPS_ILK</device>
 					<interlock></interlock>
 					<name>$(device):MPS_ILK</name>
 				</macros>
-				<target>standalone</target>
+				<target>window</target>
 			</action>
 		</actions>
 		<text>Interlock</text>
