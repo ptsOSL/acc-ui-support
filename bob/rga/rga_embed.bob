@@ -37,7 +37,7 @@
 		<name>V1</name>
 		<pv_name>$(device):STA.SEVR</pv_name>
 		<symbols>
-			<symbol>fe-ui-support/symbols/rga 0.svg</symbol>
+			<symbol>symbol/rga 0.svg</symbol>
 		</symbols>
 		<width>20</width>
 		<height>20</height>

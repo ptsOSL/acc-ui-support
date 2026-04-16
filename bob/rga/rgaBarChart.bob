@@ -72,7 +72,7 @@
 						<macros>
 							<mass>200</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -102,7 +102,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>199</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -132,7 +132,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>198</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -162,7 +162,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>197</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -192,7 +192,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>196</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -222,7 +222,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>195</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -252,7 +252,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>194</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -282,7 +282,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>193</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -312,7 +312,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>192</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -341,7 +341,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>191</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -388,7 +388,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>190</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -418,7 +418,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>189</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -448,7 +448,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>188</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -478,7 +478,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>187</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -508,7 +508,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>186</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -538,7 +538,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>185</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -568,7 +568,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>184</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -598,7 +598,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>183</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -628,7 +628,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>182</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -657,7 +657,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>181</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -724,7 +724,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>180</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -754,7 +754,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>179</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -784,7 +784,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>178</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -814,7 +814,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>177</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -844,7 +844,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>176</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -874,7 +874,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>175</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -904,7 +904,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>174</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -934,7 +934,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>173</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -964,7 +964,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>172</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -993,7 +993,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>171</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1040,7 +1040,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>170</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1070,7 +1070,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>169</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1100,7 +1100,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>168</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1130,7 +1130,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>167</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1160,7 +1160,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>166</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1190,7 +1190,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>165</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1220,7 +1220,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>164</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1250,7 +1250,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>163</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1280,7 +1280,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>162</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1309,7 +1309,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>161</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1376,7 +1376,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>160</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1406,7 +1406,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>159</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1436,7 +1436,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>158</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1466,7 +1466,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>157</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1496,7 +1496,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>156</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1526,7 +1526,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>155</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1556,7 +1556,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>154</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1586,7 +1586,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>153</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1616,7 +1616,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>152</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1645,7 +1645,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>151</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1692,7 +1692,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>150</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1722,7 +1722,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>149</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1752,7 +1752,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>148</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1782,7 +1782,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>147</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1812,7 +1812,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>146</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1842,7 +1842,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>145</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1872,7 +1872,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>144</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1902,7 +1902,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>143</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1932,7 +1932,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>142</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -1961,7 +1961,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>141</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2028,7 +2028,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>140</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2058,7 +2058,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>139</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2088,7 +2088,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>138</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2118,7 +2118,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>137</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2148,7 +2148,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>136</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2178,7 +2178,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>135</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2208,7 +2208,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>134</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2238,7 +2238,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>133</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2268,7 +2268,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>132</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2297,7 +2297,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>131</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2344,7 +2344,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>130</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2374,7 +2374,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>129</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2404,7 +2404,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>128</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2434,7 +2434,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>127</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2464,7 +2464,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>126</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2494,7 +2494,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>125</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2524,7 +2524,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>124</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2554,7 +2554,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>123</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2584,7 +2584,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>122</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2613,7 +2613,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>121</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2680,7 +2680,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>120</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2710,7 +2710,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>119</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2740,7 +2740,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>118</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2770,7 +2770,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>117</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2800,7 +2800,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>116</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2830,7 +2830,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>115</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2860,7 +2860,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>114</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2890,7 +2890,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>113</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2920,7 +2920,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>112</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2949,7 +2949,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>111</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -2996,7 +2996,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>110</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3026,7 +3026,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>109</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3056,7 +3056,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>108</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3086,7 +3086,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>107</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3116,7 +3116,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>106</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3146,7 +3146,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>105</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3176,7 +3176,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>104</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3206,7 +3206,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>103</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3236,7 +3236,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>102</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3265,7 +3265,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>101</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3332,7 +3332,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>100</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3362,7 +3362,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>99</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3392,7 +3392,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>98</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3422,7 +3422,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>97</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3452,7 +3452,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>96</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3482,7 +3482,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>95</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3512,7 +3512,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>94</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3542,7 +3542,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>93</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3572,7 +3572,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>92</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3601,7 +3601,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>91</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3648,7 +3648,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>90</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3678,7 +3678,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>89</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3708,7 +3708,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>88</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3738,7 +3738,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>87</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3768,7 +3768,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>86</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3798,7 +3798,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>85</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3828,7 +3828,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>84</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3858,7 +3858,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>83</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3888,7 +3888,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>82</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3917,7 +3917,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>81</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -3984,7 +3984,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>80</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4014,7 +4014,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>79</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4044,7 +4044,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>78</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4074,7 +4074,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>77</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4104,7 +4104,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>76</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4134,7 +4134,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>75</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4164,7 +4164,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>74</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4194,7 +4194,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>73</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4224,7 +4224,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>72</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4253,7 +4253,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>71</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4300,7 +4300,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>70</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4330,7 +4330,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>69</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4360,7 +4360,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>68</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4390,7 +4390,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>67</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4420,7 +4420,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>66</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4450,7 +4450,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>65</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4480,7 +4480,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>64</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4510,7 +4510,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>63</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4540,7 +4540,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>62</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4569,7 +4569,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>61</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4636,7 +4636,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>60</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4666,7 +4666,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>59</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4696,7 +4696,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>58</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4726,7 +4726,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>57</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4756,7 +4756,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>56</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4786,7 +4786,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>55</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4816,7 +4816,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>54</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4846,7 +4846,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>53</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4876,7 +4876,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>52</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4905,7 +4905,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>51</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4952,7 +4952,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>50</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -4982,7 +4982,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>49</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5012,7 +5012,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>48</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5042,7 +5042,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>47</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5072,7 +5072,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>46</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5102,7 +5102,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>45</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5132,7 +5132,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>44</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5162,7 +5162,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>43</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5192,7 +5192,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>42</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5221,7 +5221,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>41</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5288,7 +5288,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>40</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5318,7 +5318,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>39</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5348,7 +5348,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>38</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5378,7 +5378,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>37</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5408,7 +5408,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>36</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5438,7 +5438,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>35</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5468,7 +5468,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>34</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5498,7 +5498,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>33</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5528,7 +5528,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>32</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5557,7 +5557,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>31</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5604,7 +5604,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>30</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5634,7 +5634,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>29</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5664,7 +5664,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>28</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5694,7 +5694,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>27</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5724,7 +5724,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>26</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5754,7 +5754,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>25</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5784,7 +5784,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>24</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5814,7 +5814,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>23</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5844,7 +5844,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>22</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5873,7 +5873,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>21</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5940,7 +5940,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>20</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -5970,7 +5970,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>19</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6000,7 +6000,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>18</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6030,7 +6030,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>17</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6060,7 +6060,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>16</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6090,7 +6090,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>15</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6120,7 +6120,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>14</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6150,7 +6150,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>13</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6180,7 +6180,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>12</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6209,7 +6209,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>11</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6256,7 +6256,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>10</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6286,7 +6286,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>9</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6316,7 +6316,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>8</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6346,7 +6346,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>7</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6376,7 +6376,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>6</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6406,7 +6406,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>5</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6436,7 +6436,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>4</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6466,7 +6466,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>3</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6496,7 +6496,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>2</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -6525,7 +6525,7 @@ $(pv_value)</tooltip>
 						<macros>
 							<mass>1</mass>
 						</macros>
-						<target>window</target>
+						<target>standalone</target>
 					</action>
 				</actions>
 				<tooltip>$(pv_name)
@@ -7464,7 +7464,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7481,7 +7481,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7498,7 +7498,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7515,7 +7515,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7532,7 +7532,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7549,7 +7549,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7566,7 +7566,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7583,7 +7583,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7600,7 +7600,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7617,7 +7617,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7634,7 +7634,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7651,7 +7651,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7668,7 +7668,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7685,7 +7685,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7702,7 +7702,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7719,7 +7719,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7736,7 +7736,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7753,7 +7753,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7770,7 +7770,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -7786,7 +7786,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 	</widget>
@@ -8682,7 +8682,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8699,7 +8699,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8716,7 +8716,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8733,7 +8733,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8750,7 +8750,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8767,7 +8767,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8784,7 +8784,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8801,7 +8801,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8818,7 +8818,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8835,7 +8835,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8852,7 +8852,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8869,7 +8869,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8886,7 +8886,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8903,7 +8903,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8920,7 +8920,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8937,7 +8937,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8954,7 +8954,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8971,7 +8971,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -8988,7 +8988,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -9004,7 +9004,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 	</widget>
@@ -11190,7 +11190,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11207,7 +11207,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11224,7 +11224,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11241,7 +11241,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11258,7 +11258,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11275,7 +11275,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11292,7 +11292,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11309,7 +11309,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11326,7 +11326,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11343,7 +11343,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11360,7 +11360,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11377,7 +11377,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11394,7 +11394,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11411,7 +11411,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11428,7 +11428,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11445,7 +11445,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11462,7 +11462,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11479,7 +11479,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11496,7 +11496,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 		<widget type="progressbar" version="2.0.0">
@@ -11512,7 +11512,7 @@ $(pv_value)</tooltip>
 			</background_color>
 			<horizontal>false</horizontal>
 			<actions></actions>
-			<border_alarm_sensitive>false</border_alarm_sensitive>
+			<border_alarm_sensitive>true</border_alarm_sensitive>
 			<maximum>0.0</maximum>
 		</widget>
 	</widget>

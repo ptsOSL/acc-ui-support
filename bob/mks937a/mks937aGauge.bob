@@ -87,7 +87,7 @@ $(pv_value)</tooltip>
 				<macros>
 					<device>$(dom)-VA-PIRG-$(id)</device>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Pirani</text>
@@ -110,14 +110,15 @@ $(pv_value)</tooltip>
 	<widget type="action_button" version="3.0.0">
 		<name>EDM shell command</name>
 		<actions>
-			<action type="execute">
-				<description>Execute Script</description>
+			<action type="command">
+				<description>Launch databrowser</description>
 				<script file="EmbeddedPy">
 					<text>from org.csstudio.opibuilder.scriptUtil import ScriptUtil
 
 command_id="org.csstudio.trends.databrowser2.newWindow"
 ScriptUtil.executeEclipseCommand(command_id, ['pvnames', '$(dom)-VA-GAUGE-$(id):PLOG,$(dom)-VA-IMG-$(id):PLOG,$(dom)-VA-PIRG-$(id):PLOG'])</text>
 				</script>
+				<command>$(phoebus.install)/../phoebus.sh -resource "pv://?$(dom)-VA-GAUGE-$(id):PLOG&amp;$(dom)-VA-IMG-$(id):PLOG&amp;$(dom)-VA-PIRG-$(id):PLOG&amp;app=databrowser</command>
 			</action>
 		</actions>
 		<text>Graph</text>
@@ -297,6 +298,7 @@ $(pv_value)</tooltip>
 		</background_color>
 		<show_value>false</show_value>
 		<show_limits>false</show_limits>
+		<log_scale>true</log_scale>
 		<actions></actions>
 		<border_alarm_sensitive>false</border_alarm_sensitive>
 		<minimum>1.0E-11</minimum>
@@ -314,7 +316,7 @@ $(pv_value)</tooltip>
 				<macros>
 					<device>$(GCTLR)</device>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>GCTLR</text>
@@ -360,7 +362,7 @@ $(pv_value)</tooltip>
 				<exp bool_exp="true">
 					<value>true</value>
 				</exp>
-				<pv_name>=(pv("loc://$(DID)noImg&lt;VDouble&gt;($(NOIMG))"))</pv_name>
+				<pv_name>=(`loc://$(DID)noImg&lt;VDouble&gt;($(NOIMG))`)</pv_name>
 			</rule>
 		</rules>
 		<widget type="action_button" version="3.0.0">
@@ -372,7 +374,7 @@ $(pv_value)</tooltip>
 					<macros>
 						<device>$(dom)-VA-IMG-$(id)</device>
 					</macros>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text>IMG</text>
@@ -446,7 +448,7 @@ overwrite</text>
 		<name>DLS symbol</name>
 		<pv_name>$(dom)-VA-GAUGE-$(id):ILKSETSP:NOWRITE</pv_name>
 		<symbols>
-			<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+			<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 		</symbols>
 		<x>97</x>
 		<y>269</y>

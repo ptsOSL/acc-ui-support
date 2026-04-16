@@ -16,7 +16,7 @@
 				<macros>
 					<ioc>$(ioc)</ioc>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>$(label)</text>

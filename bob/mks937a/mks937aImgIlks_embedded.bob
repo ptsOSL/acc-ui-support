@@ -181,7 +181,7 @@ $(pv_value)</tooltip>
 		<name>DLS symbol</name>
 		<pv_name>$(device):PRO:ILKSETSP:NOWRITE</pv_name>
 		<symbols>
-			<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+			<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 		</symbols>
 		<x>120</x>
 		<y>32</y>
@@ -219,7 +219,7 @@ $(pv_value)</tooltip>
 		<name>DLS symbol</name>
 		<pv_name>$(device):RLY:ILKSETSP:NOWRITE</pv_name>
 		<symbols>
-			<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+			<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 		</symbols>
 		<x>120</x>
 		<y>64</y>
@@ -309,7 +309,7 @@ $(pv_value)</tooltip>
 			<name>DLS symbol</name>
 			<pv_name>$(device):RLA:ILKSETSP:NOWRITE</pv_name>
 			<symbols>
-				<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+				<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 			</symbols>
 			<x>104</x>
 			<width>24</width>

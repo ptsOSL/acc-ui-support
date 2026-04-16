@@ -25,11 +25,11 @@
 		<actions>
 			<action type="open_display">
 				<description>Open Display</description>
-				<file>acc-ui-support/bob/mks937a/mks937aGauge.opi</file>
+				<file>../mks937a/mks937aGauge.opi</file>
 				<macros>
 					<NOIMG>0</NOIMG>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<tooltip>$(pv_name)
@@ -78,7 +78,7 @@ $(pv_value)</tooltip>
 		</background_color>
 		<horizontal>false</horizontal>
 		<actions></actions>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="group" version="3.0.0">

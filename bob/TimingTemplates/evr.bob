@@ -3403,7 +3403,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT0W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT0W`/124913500)</pv_name>
 		<x>240</x>
 		<y>64</y>
 		<width>97</width>
@@ -3428,7 +3428,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT1W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT1W`/124913500)</pv_name>
 		<x>240</x>
 		<y>96</y>
 		<width>97</width>
@@ -3453,7 +3453,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT2W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT2W`/124913500)</pv_name>
 		<x>240</x>
 		<y>128</y>
 		<width>97</width>
@@ -3478,7 +3478,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT3W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT3W`/124913500)</pv_name>
 		<x>240</x>
 		<y>160</y>
 		<width>97</width>
@@ -3503,7 +3503,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT4W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT4W`/124913500)</pv_name>
 		<x>240</x>
 		<y>192</y>
 		<width>97</width>
@@ -3528,7 +3528,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT5W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT5W`/124913500)</pv_name>
 		<x>240</x>
 		<y>224</y>
 		<width>97</width>
@@ -3553,7 +3553,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT6W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT6W`/124913500)</pv_name>
 		<x>240</x>
 		<y>256</y>
 		<width>97</width>
@@ -3578,7 +3578,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT7W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT7W`/124913500)</pv_name>
 		<x>240</x>
 		<y>288</y>
 		<width>97</width>
@@ -3603,7 +3603,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT8W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT8W`/124913500)</pv_name>
 		<x>240</x>
 		<y>320</y>
 		<width>97</width>
@@ -3628,7 +3628,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT9W")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT9W`/124913500)</pv_name>
 		<x>240</x>
 		<y>352</y>
 		<width>97</width>
@@ -3653,7 +3653,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTAW")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTAW`/124913500)</pv_name>
 		<x>240</x>
 		<y>384</y>
 		<width>97</width>
@@ -3678,7 +3678,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTBW")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTBW`/124913500)</pv_name>
 		<x>240</x>
 		<y>416</y>
 		<width>97</width>
@@ -3703,7 +3703,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTCW")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTCW`/124913500)</pv_name>
 		<x>240</x>
 		<y>448</y>
 		<width>97</width>
@@ -3728,7 +3728,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTDW")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTDW`/124913500)</pv_name>
 		<x>240</x>
 		<y>480</y>
 		<width>97</width>
@@ -3753,7 +3753,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT0D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT0D`/124913500)</pv_name>
 		<x>416</x>
 		<y>64</y>
 		<width>97</width>
@@ -3778,7 +3778,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT1D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT1D`/124913500)</pv_name>
 		<x>416</x>
 		<y>96</y>
 		<width>97</width>
@@ -3803,7 +3803,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT2D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT2D`/124913500)</pv_name>
 		<x>416</x>
 		<y>128</y>
 		<width>97</width>
@@ -3828,7 +3828,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT3D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT3D`/124913500)</pv_name>
 		<x>416</x>
 		<y>160</y>
 		<width>97</width>
@@ -3853,7 +3853,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT4D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT4D`/124913500)</pv_name>
 		<x>416</x>
 		<y>192</y>
 		<width>97</width>
@@ -3878,7 +3878,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT5D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT5D`/124913500)</pv_name>
 		<x>416</x>
 		<y>224</y>
 		<width>97</width>
@@ -3903,7 +3903,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT6D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT6D`/124913500)</pv_name>
 		<x>416</x>
 		<y>256</y>
 		<width>97</width>
@@ -3928,7 +3928,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT7D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT7D`/124913500)</pv_name>
 		<x>416</x>
 		<y>288</y>
 		<width>97</width>
@@ -3953,7 +3953,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT8D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT8D`/124913500)</pv_name>
 		<x>416</x>
 		<y>320</y>
 		<width>97</width>
@@ -3978,7 +3978,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OT9D")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OT9D`/124913500)</pv_name>
 		<x>416</x>
 		<y>352</y>
 		<width>97</width>
@@ -4003,7 +4003,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTAD")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTAD`/124913500)</pv_name>
 		<x>416</x>
 		<y>384</y>
 		<width>97</width>
@@ -4028,7 +4028,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTBD")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTBD`/124913500)</pv_name>
 		<x>416</x>
 		<y>416</y>
 		<width>97</width>
@@ -4053,7 +4053,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTCD")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTCD`/124913500)</pv_name>
 		<x>416</x>
 		<y>448</y>
 		<width>97</width>
@@ -4078,7 +4078,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).OTDD")/124913500)</pv_name>
+		<pv_name>=(`$(evr).OTDD`/124913500)</pv_name>
 		<x>416</x>
 		<y>480</y>
 		<width>97</width>
@@ -4125,7 +4125,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG0W")/124913500*pv("$(evr).DG0C"))</pv_name>
+		<pv_name>=(`$(evr).DG0W`/124913500*`$(evr).DG0C`)</pv_name>
 		<x>256</x>
 		<y>544</y>
 		<width>97</width>
@@ -4150,7 +4150,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG0D")/124913500*pv("$(evr).DG0C"))</pv_name>
+		<pv_name>=(`$(evr).DG0D`/124913500*`$(evr).DG0C`)</pv_name>
 		<x>432</x>
 		<y>544</y>
 		<width>97</width>
@@ -4197,7 +4197,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG1W")/124913500*pv("$(evr).DG1C"))</pv_name>
+		<pv_name>=(`$(evr).DG1W`/124913500*`$(evr).DG1C`)</pv_name>
 		<x>256</x>
 		<y>576</y>
 		<width>97</width>
@@ -4222,7 +4222,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG2W")/124913500*pv("$(evr).DG2C"))</pv_name>
+		<pv_name>=(`$(evr).DG2W`/124913500*`$(evr).DG2C`)</pv_name>
 		<x>256</x>
 		<y>608</y>
 		<width>97</width>
@@ -4247,7 +4247,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG3W")/124913500*pv("$(evr).DG3C"))</pv_name>
+		<pv_name>=(`$(evr).DG3W`/124913500*`$(evr).DG3C`)</pv_name>
 		<x>256</x>
 		<y>640</y>
 		<width>97</width>
@@ -4272,7 +4272,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG1D")/124913500*pv("$(evr).DG1C"))</pv_name>
+		<pv_name>=(`$(evr).DG1D`/124913500*`$(evr).DG1C`)</pv_name>
 		<x>432</x>
 		<y>576</y>
 		<width>97</width>
@@ -4297,7 +4297,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG2D")/124913500*pv("$(evr).DG2C"))</pv_name>
+		<pv_name>=(`$(evr).DG2D`/124913500*`$(evr).DG2C`)</pv_name>
 		<x>432</x>
 		<y>608</y>
 		<width>97</width>
@@ -4322,7 +4322,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("$(evr).DG3D")/124913500*pv("$(evr).DG3C"))</pv_name>
+		<pv_name>=(`$(evr).DG3D`/124913500*`$(evr).DG3C`)</pv_name>
 		<x>432</x>
 		<y>640</y>
 		<width>97</width>
@@ -4470,7 +4470,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(124913500/pv("$(evr).PRES0"))</pv_name>
+		<pv_name>=(124913500/`$(evr).PRES0`)</pv_name>
 		<x>1056</x>
 		<y>336</y>
 		<width>97</width>
@@ -4495,7 +4495,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(124913500/pv("$(evr).PRES1"))</pv_name>
+		<pv_name>=(124913500/`$(evr).PRES1`)</pv_name>
 		<x>1056</x>
 		<y>368</y>
 		<width>97</width>
@@ -4520,7 +4520,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(124913500/pv("$(evr).PRES2"))</pv_name>
+		<pv_name>=(124913500/`$(evr).PRES2`)</pv_name>
 		<x>1056</x>
 		<y>400</y>
 		<width>97</width>
@@ -5288,7 +5288,7 @@
 					<evr>$(evr)</evr>
 					<fps>0</fps>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text></text>
@@ -5312,7 +5312,7 @@
 					<evr>$(evr)</evr>
 					<fps>1</fps>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text></text>
@@ -5336,7 +5336,7 @@
 					<evr>$(evr)</evr>
 					<fps>2</fps>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text></text>
@@ -6153,7 +6153,7 @@
 						<evr>$(evr)</evr>
 						<fps>3</fps>
 					</macros>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text></text>
@@ -6177,7 +6177,7 @@
 						<evr>$(evr)</evr>
 						<fps>4</fps>
 					</macros>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text></text>
@@ -6201,7 +6201,7 @@
 						<evr>$(evr)</evr>
 						<fps>5</fps>
 					</macros>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text></text>
@@ -6225,7 +6225,7 @@
 						<evr>$(evr)</evr>
 						<fps>6</fps>
 					</macros>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text></text>
@@ -6237,7 +6237,7 @@
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>erevent.bob</file>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>erevent</text>

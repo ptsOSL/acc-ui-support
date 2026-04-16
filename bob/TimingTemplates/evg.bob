@@ -3413,7 +3413,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC0P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC0P`)</pv_name>
 		<x>744</x>
 		<y>256</y>
 		<width>81</width>
@@ -3438,7 +3438,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC1P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC1P`)</pv_name>
 		<x>744</x>
 		<y>288</y>
 		<width>81</width>
@@ -3463,7 +3463,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC2P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC2P`)</pv_name>
 		<x>744</x>
 		<y>320</y>
 		<width>81</width>
@@ -3488,7 +3488,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC3P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC3P`)</pv_name>
 		<x>744</x>
 		<y>352</y>
 		<width>81</width>
@@ -3513,7 +3513,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC4P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC4P`)</pv_name>
 		<x>744</x>
 		<y>384</y>
 		<width>81</width>
@@ -3538,7 +3538,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC5P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC5P`)</pv_name>
 		<x>744</x>
 		<y>416</y>
 		<width>81</width>
@@ -3563,7 +3563,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC6P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC6P`)</pv_name>
 		<x>744</x>
 		<y>448</y>
 		<width>81</width>
@@ -3588,7 +3588,7 @@
 	</widget>
 	<widget type="textupdate" version="2.0.0">
 		<name>EDM Text Update</name>
-		<pv_name>=(pv("LI-RF-OSC-01:FREQ")/4/pv("$(evg).MC7P"))</pv_name>
+		<pv_name>=(`LI-RF-OSC-01:FREQ`/4/`$(evg).MC7P`)</pv_name>
 		<x>744</x>
 		<y>480</y>
 		<width>81</width>

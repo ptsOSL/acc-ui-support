@@ -81,14 +81,15 @@ $(pv_value)</tooltip>
 	<widget type="action_button" version="3.0.0">
 		<name>EDM shell command</name>
 		<actions>
-			<action type="execute">
-				<description>Execute Script</description>
+			<action type="command">
+				<description>Launch databrowser</description>
 				<script file="EmbeddedPy">
 					<text>from org.csstudio.opibuilder.scriptUtil import ScriptUtil
 
 command_id="org.csstudio.trends.databrowser2.newWindow"
 ScriptUtil.executeEclipseCommand(command_id, ['pvnames', '$(device):PLOG'])</text>
 				</script>
+				<command>$(phoebus.install)/../phoebus.sh -resource "pv://?$(device):PLOG&amp;app=databrowser</command>
 			</action>
 		</actions>
 		<text>Graph</text>
@@ -544,6 +545,7 @@ $(pv_value)</tooltip>
 		</background_color>
 		<show_value>false</show_value>
 		<show_limits>false</show_limits>
+		<log_scale>true</log_scale>
 		<actions></actions>
 		<border_alarm_sensitive>false</border_alarm_sensitive>
 		<minimum>1.0E-11</minimum>
@@ -587,7 +589,7 @@ $(pv_value)</tooltip>
 				<action type="open_display">
 					<description>Switch on/off</description>
 					<file>mks937aImgWarning.bob</file>
-					<target>window</target>
+					<target>standalone</target>
 				</action>
 			</actions>
 			<text>Switch on/off</text>

@@ -608,8 +608,8 @@
 		<name>EDM shell command</name>
 		<actions>
 			<action type="command">
-				<description>Execute Command</description>
-				<command>strip.py $(device):LOG:M2 $(device):LOG:M4 $(device):LOG:M16 $(device):LOG:M18 $(device):LOG:M28 $(device):LOG:M32 $(device):LOG:M44 log_mbar</command>
+				<description>Launch databrowser</description>
+				<command>$(phoebus.install)/../phoebus.sh -resource "pv://?$(device):LOG:M2&amp;$(device):LOG:M4&amp;$(device):LOG:M16&amp;$(device):LOG:M18&amp;$(device):LOG:M28&amp;$(device):LOG:M32&amp;$(device):LOG:M44&amp;app=databrowser</command>
 			</action>
 		</actions>
 		<text>Graph</text>
@@ -634,8 +634,8 @@
 		<actions>
 			<action type="open_display">
 				<description>Open Display</description>
-				<file>rgaBarChart.bob</file>
-				<target>window</target>
+				<file>./rgaBarChart.bob</file>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Bar Chart</text>
@@ -1157,7 +1157,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1244,7 +1244,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1331,7 +1331,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1419,7 +1419,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1507,7 +1507,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1594,7 +1594,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1681,7 +1681,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1768,7 +1768,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1855,7 +1855,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -1943,7 +1943,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">
@@ -2432,7 +2432,7 @@
 		<background_color>
 			<color name="Grey 75%" red="192" green="192" blue="192"></color>
 		</background_color>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="textupdate" version="2.0.0">

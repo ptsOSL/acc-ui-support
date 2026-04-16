@@ -1527,7 +1527,7 @@ Maximum</text>
 			<action type="open_display">
 				<description>$(ioc) Alarm Limits</description>
 				<file>ioc_stats_limits.bob</file>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Alarm Limits...</text>
@@ -1553,7 +1553,7 @@ Maximum</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_epics_env.bob</file>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>EPICS Env Vars...</text>
@@ -1584,7 +1584,7 @@ Maximum</text>
 					<idx>0</idx>
 					<p>1</p>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Release Versions...</text>
@@ -1613,7 +1613,7 @@ Maximum</text>
 				<macros>
 					<ioc>$(ioc)</ioc>
 				</macros>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Scan Monitor...</text>
@@ -1639,7 +1639,7 @@ Maximum</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_reboot_confirm.bob</file>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Reboot...</text>
@@ -1665,7 +1665,7 @@ Maximum</text>
 			<action type="open_display">
 				<description>Open Display</description>
 				<file>ioc_stats_reloadacf_confirm.bob</file>
-				<target>window</target>
+				<target>standalone</target>
 			</action>
 		</actions>
 		<text>Reload Access Security Conf File...</text>

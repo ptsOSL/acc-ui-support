@@ -316,7 +316,7 @@ $(pv_value)</tooltip>
 			<color name="Grey 40%" red="102" green="102" blue="102"></color>
 		</background_color>
 		<actions></actions>
-		<border_alarm_sensitive>false</border_alarm_sensitive>
+		<border_alarm_sensitive>true</border_alarm_sensitive>
 		<maximum>0.0</maximum>
 	</widget>
 	<widget type="group" version="3.0.0">

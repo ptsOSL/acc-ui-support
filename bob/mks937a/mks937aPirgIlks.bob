@@ -230,7 +230,7 @@ Override Interlocks</text>
 		<name>DLS symbol</name>
 		<pv_name>$(device):CTL:ILKSETSP:NOWRITE</pv_name>
 		<symbols>
-			<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+			<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 		</symbols>
 		<x>152</x>
 		<y>80</y>
@@ -265,7 +265,7 @@ Override Interlocks</text>
 		<name>DLS symbol</name>
 		<pv_name>$(device):RLY:ILKSETSP:NOWRITE</pv_name>
 		<symbols>
-			<symbol>acc-ui-support/symbols/mks937aLock-symbol-61.png</symbol>
+			<symbol>../mks937a/mks937aLock-symbol-61.png</symbol>
 		</symbols>
 		<x>152</x>
 		<y>152</y>
